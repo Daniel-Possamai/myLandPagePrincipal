@@ -1,23 +1,18 @@
-
 header{
-    width: 100%;
+    transition: 1s ease;
+    position: inherit;
     display: flex;
     justify-content: center;
+    border: 1px solid green;
     img{
         border-radius: 15px;
-    }
-    img:hover{
-        cursor: pointer;
-        transform: scale(1.05);
-        opacity: 100%;
     }
 }
 
 .logo{
-    width: 100%;
-    margin-top: 15px;
-    width: 125px;
-    opacity: 75%;
-    transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+    margin-top: 5px;
+    height: 100%;
     
 }
+
+
