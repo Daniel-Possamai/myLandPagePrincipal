@@ -4,7 +4,7 @@ import "./home.scss"
 export default function Home(){
     return (
         <div>
-            <Header/>
+            <a href="#"> <Header/> </a>
         </div>
     )
 }
