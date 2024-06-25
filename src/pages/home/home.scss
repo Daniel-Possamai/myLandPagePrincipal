@@ -1,4 +1,11 @@
 
+
+.container-Englobador{
+    padding: 4% 8%;
+}
+
+
+
 .header{
     text-decoration: none #fff;
     transition: text-decoration 2s ease-in-out ;
@@ -8,3 +15,12 @@
     text-decoration: underline #c10528;
 }
 
+
+
+// Responsividade mob 1024px
+
+@media (max-width: 1024px) {
+    .container-Englobador{
+        padding: 3% 5%;
+    }
+}
