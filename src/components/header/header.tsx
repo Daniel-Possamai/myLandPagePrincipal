@@ -2,8 +2,13 @@ import './header.scss'
 
 export default function Header() {
     return (
-            <header>
-                <img className="logo" src="./images/logoDesktopFinal.png" alt="Logo" />
-            </header>
+        <header className="container">
+            <p>Daniel Possamai</p>
+            <section className="animation">
+                <div className="first"><div>Desenvolvedor Web</div></div>
+                <div className="second"><div>Especializado em Landing Page</div></div>
+                <div className="third"><div>Responsividade e Agilidade</div></div>
+            </section>
+        </header>
     );
 }
