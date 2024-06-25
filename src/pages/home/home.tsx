@@ -11,7 +11,7 @@ export default function Home(){
             <a href="#" className={ "header" }> <Header/> </a>
             <div className={ 'container-Englobador' }>
                 <Hero/>
-            
+                <div className="teste">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, rem veniam ea vel quae necessitatibus? Architecto asperiores minima at eos, omnis ipsa tenetur, in iure cupiditate, nulla laboriosam libero voluptatem!</div>
             </div>
 
             
