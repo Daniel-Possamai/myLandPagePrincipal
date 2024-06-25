@@ -7,31 +7,27 @@ header {
     height: 90px;
 
     img {
+        transition: opacity 0.3s ease;
         width: 300px;
         border-radius: 15px;
+        // animation: slide-in-fwd-center 2s ease;
+        &:hover {
+            opacity: 0.75; // Diminui a opacidade ao passar o mouse
+        }
     }
 }
 
-.logo {
-    position: relative;
-    margin-top: 5px;
-    color: #fff;
-    transition: opacity 0.3s ease, transform 0.3s ease;
 
-    &::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0; // Garante que o pseudo-elemento se estenda por toda a largura
-        height: 3px;
-        background-color: #fff;
-        transform: scaleX(0); // Começa sem ser estendido
-        transition: transform 0.5s ease; // Transição suave para o transform
-        transform-origin: left; // Inicia a transformação da esquerda para a direita
+//ainda não usado animação de entrada preicsa ser ajusatado para somente ativar a animação após o preloader sumir
+  @keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
     }
-
-    &:hover::after {
-        transform: scaleX(1); // Estende o pseudo-elemento para a largura total no hover
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
     }
-}
+  }
