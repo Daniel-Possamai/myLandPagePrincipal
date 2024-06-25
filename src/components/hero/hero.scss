@@ -7,13 +7,82 @@
     width: 100%;
     height: calc(100vh - 120px);
 
-    p{
-        position: absolute;
-        top: 30%;
-        font-size: 5.5rem;
+
+
+    //Animação do texto landing page
+    @keyframes showTopText {
+        0% { transform: translate3d(0, 100%, 0); }
+        40%, 60% { transform: translate3d(0, 50%, 0); }
+        100% { transform: translate3d(0, 0, 0); }
+      }
+      @keyframes showBottomText {
+        0% { transform: translate3d(0, -100%, 0); }
+        100% { transform: translate3d(0, 0, 0); }
+      }
+
+      @keyframes movement {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-5%); }
+      }
+
+      .animated-title {
+        font-family: "Roboto";
         color: #fff;
-        text-align: center;
-    }
+        height: 90vmin;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 90vmin;
+      }
+
+      .animated-title:hover{
+        cursor: context-menu;
+      }
+
+      .animated-title > div {
+        height: 50%;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+      }
+      .animated-title > div div {
+        font-size: 6vmin;
+        padding: 2vmin 0;
+        position: absolute;
+      }
+      .animated-title > div div span {
+        display: block;
+      }
+      .animated-title > div.text-top {
+        border-bottom: 1vmin solid #c10528;
+        top: 0;
+      }
+      .animated-title > div.text-top div {
+        animation: showTopText 3s 0.5s forwards, movement 1.6s 3.2s infinite alternate;
+        bottom: 0;
+        transform: translate(0, 100%);
+      }
+
+      .animated-title > div.text-top div span:first-child {
+        color: #fff;
+      }
+      .animated-title > div.text-bottom {
+        bottom: 0;
+      }
+      .animated-title > div.text-bottom div {
+        animation: showBottomText 3s 3s forwards, movement 1.6s 6.2s infinite alternate;
+        top: 0;
+        transform: translate(0, -100%);
+      }
+
+    // p{
+    //     position: absolute;
+    //     top: 30%;
+    //     font-size: 5.5rem;
+    //     color: #fff;
+    //     text-align: center;
+    // }
     
     .arrow-page{
         animation: arrow-animation 1.2s ease-in-out infinite alternate;
