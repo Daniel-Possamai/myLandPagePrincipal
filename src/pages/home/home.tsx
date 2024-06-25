@@ -1,9 +1,12 @@
 import Header from "../../components/header/header"
+import PreLoader from "../../components/preloader/preloader"
 import "./home.scss"
 
 export default function Home(){
     return (
         <div>
+            <PreLoader/>
+            
             <a href="#"> <Header/> </a>
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dicta perferendis, cum ullam suscipit ut exercitationem repudiandae pariatur aliquam quis dolore, quas adipisci. Officiis magni natus eaque harum unde at.</div>
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dicta perferendis, cum ullam suscipit ut exercitationem repudiandae pariatur aliquam quis dolore, quas adipisci. Officiis magni natus eaque harum unde at.</div>

@@ -3,7 +3,7 @@ header{
     position: inherit;
     display: flex;
     justify-content: center;
-    background-color: #00000034;
+    background: linear-gradient(to bottom, #00000059 65%, transparent 100%);
     img{
         width: 300px;
         border-radius: 15px;
@@ -13,6 +13,26 @@ header{
 .logo{
     margin-top: 5px;
     height: 100%;
+    transition: transform 0.3s ease;
 }
 
 
+.logo {
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  animation: pulse 2.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
