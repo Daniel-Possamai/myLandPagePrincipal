@@ -3,8 +3,9 @@ header{
     position: inherit;
     display: flex;
     justify-content: center;
-    border: 1px solid green;
+    background-color: #00000034;
     img{
+        width: 300px;
         border-radius: 15px;
     }
 }
@@ -12,7 +13,6 @@ header{
 .logo{
     margin-top: 5px;
     height: 100%;
-    
 }
 
 
