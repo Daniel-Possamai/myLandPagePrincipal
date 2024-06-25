@@ -1,6 +1,6 @@
-import './header.scss'
+import './logo.scss'
 
-export default function Header() {
+export default function Logo() {
     return (
         <header className="container">
             <p>Daniel Possamai</p>

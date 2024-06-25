@@ -1,4 +1,4 @@
-import Header from "../../components/header/header"
+import Logo from "../../components/logo/logo"
 import Hero from "../../components/hero/hero"
 import PreLoader from "../../components/preloader/preloader"
 import "./home.scss"
@@ -8,10 +8,9 @@ export default function Home(){
         <div className={ 'container-home' }>
             {/* <PreLoader/> */}
 
-            <a href="#" className={ "header" }> <Header/> </a>
             <div className={ 'container-Englobador' }>
                 <Hero/>
-                <div className="teste">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, rem veniam ea vel quae necessitatibus? Architecto asperiores minima at eos, omnis ipsa tenetur, in iure cupiditate, nulla laboriosam libero voluptatem!</div>
+                <div className="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eius laboriosam officia vitae illum! Omnis dolore voluptatem eveniet similique debitis nisi quod iure, aliquid culpa vitae eos cum? Sit, voluptatibus?</div>
             </div>
 
             
