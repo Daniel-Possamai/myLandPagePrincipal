@@ -1,5 +1,22 @@
-header{
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); // Sombra interna para escurecer
+header {
+    position: relative;
+    z-index: 1;
+    &::after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; // Ajuste conforme necessário para a transição
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #00000054 100%); // Ajuste as cores conforme necessário
+    }
+}
+
+// Estilos para o resto do conteúdo
+.content {
+    background-color: #ffffff; // Garanta que corresponda à cor final do gradiente
+    // Outros estilos...
 }
 
 p {
