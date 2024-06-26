@@ -1,0 +1,2 @@
+- Lembrar de fazer a logica para travar o scroll ate que a animação do hero não termine, após terminar a animação liberar o scroll para o usuario
+
