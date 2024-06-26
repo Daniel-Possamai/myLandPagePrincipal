@@ -63,6 +63,7 @@
         animation: fadeIn 3s 0.2s forwards;
         border-bottom: 1vmin solid #c10528;
         top: 0;
+        opacity: 0;
       }
       .animated-title > div.text-top div {
         animation: showTopText 3s 0.5s forwards, movement 1.6s 3.2s infinite alternate;
