@@ -22,7 +22,7 @@ export default function ObjectPage() {
             case 'opcao2':
                 return <p>Nossa expertise em design e conversão vai impulsionar seus resultados</p>;
             case 'opcao3':
-                return <p>Site responsivo a diferentes tamanhos de tela</p>;
+                return <p>Site responsivo para diferentes tamanhos de tela</p>;
             default:
                 return <p>Selecione uma opção</p>;
         }

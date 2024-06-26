@@ -5,12 +5,18 @@
 
 .nav-and-content{
     display: flex;
+    height: 300px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    background-color: #0000002a; /* Cor de fundo suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno para não colar o conteúdo nas bordas */
+    border-radius: 20px; /* Bordas arredondadas para suavidade */
 }
 
 .navMenu{
+    text-align: center;
     width: 600px;
 }
 
@@ -28,12 +34,12 @@
 
 /* Aplica o hover apenas a botões que não têm a classe .active */
 .navMenu button:not(.active):hover {
-    border-bottom: 1px solid #fff; /* Transição para branco no hover */
+    border-bottom: 1px solid #ffffff5e; /* Transição para branco no hover */
 }
 
 .navMenu .active {
     color: #fff;
-    border-bottom: 1px solid blue; /* Transição para azul no ativo */
+    border-bottom: 1px solid #ff313050; /* Transição para azul no ativo */
 }
 
 .content {
