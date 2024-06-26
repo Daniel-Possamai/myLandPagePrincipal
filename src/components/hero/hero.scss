@@ -83,14 +83,6 @@
         transform: translate(0, -100%);
       }
 
-    // p{
-    //     position: absolute;
-    //     top: 30%;
-    //     font-size: 5.5rem;
-    //     color: #fff;
-    //     text-align: center;
-    // }
-    
     .arrow-page{
         opacity: 0;
         animation: arrow-animation 1.2s 6s ease-in-out infinite alternate;
@@ -137,7 +129,7 @@
             position: absolute;
         }
         .arrow-page{
-            font-size: 1rem;
+            font-size: 3rem;
         }
     }
 }
