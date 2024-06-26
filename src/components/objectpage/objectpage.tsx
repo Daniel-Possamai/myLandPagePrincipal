@@ -5,16 +5,30 @@ import { SetStateAction, useState } from 'react';
 export default function ObjectPage() {
     const [activeOption, setActiveOption] = useState('opcao1');
     const [contentVisible, setContentVisible] = useState(true);
+    const [currentImage, setCurrentImage] = useState('./images/logoDesktopFinal.png'); // Adicione um estado para a imagem atual
 
     const handleSetActiveOption = (option: SetStateAction<string>) => {
         setContentVisible(false); // Esconde o conteúdo
         setTimeout(() => { // Espera a transição ocorrer
             setActiveOption(option);
             setContentVisible(true); // Mostra o novo conteúdo
+            // Atualiza o caminho da imagem com base na opção selecionada
+            switch(option) {
+                case 'opcao1':
+                    setCurrentImage('caminho/para/imagem1.png');
+                    break;
+                case 'opcao2':
+                    setCurrentImage('caminho/para/imagem2.png');
+                    break;
+                case 'opcao3':
+                    setCurrentImage('caminho/para/imagem3.png');
+                    break;
+                default:
+                    setCurrentImage('caminho/para/imagemPadrao.png');
+            }
         }, 400); // Ajuste este tempo para corresponder à duração da sua transição
     };
 
-    // Conteúdo baseado na opção ativa
     const renderContent = () => {
         switch (activeOption) {
             case 'opcao1':
@@ -39,6 +53,10 @@ export default function ObjectPage() {
                 <div className={`content ${contentVisible ? 'visible' : 'hidden'}`}>
                     {renderContent()}
                 </div>
+            </div>
+            {/* Renderiza a imagem ao lado do container de navegação */}
+            <div className="image-container">
+                <img src={currentImage} alt="Imagem da opção selecionada" />
             </div>
         </div>
     );

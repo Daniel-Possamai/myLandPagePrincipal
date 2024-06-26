@@ -61,6 +61,45 @@
   .content.hidden {
     opacity: 0;
   }
+
+
+
+//Objeto "3D"
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px; /* Adiciona bordas arredondadas para um visual mais suave */
+    overflow: hidden; /* Garante que nada saia das bordas arredondadas */
+}
+
+.card-hover:hover {
+    transform: translateY(-5px); /* Levanta o card um pouco */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Sombra mais pronunciada para efeito de elevação */
+}
+
+.card-content {
+    padding: 20px; /* Espaçamento interno */
+}
+
+.cta-button {
+    background-color: #007bff; /* Exemplo de cor */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Cor um pouco mais escura ao passar o mouse */
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não exceda o card */
+    height: auto;
+    display: block; /* Remove espaços extras abaixo da imagem */
+}
+
   
 
 
