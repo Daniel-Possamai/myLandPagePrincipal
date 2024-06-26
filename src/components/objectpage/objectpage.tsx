@@ -2,32 +2,51 @@ import './objectpage.scss'
 import { SetStateAction, useState } from 'react';
 
 
-export default function ObjectPage() {
+
+
+function ObjectPage() {
     const [activeOption, setActiveOption] = useState('opcao1');
     const [contentVisible, setContentVisible] = useState(true);
-    const [currentImage, setCurrentImage] = useState('./images/logoDesktopFinal.png'); // Adicione um estado para a imagem atual
+    const [currentImage, setCurrentImage] = useState('./images/exclusive.png');
+    const [imageOpacity, setImageOpacity] = useState<number>(1);
 
-    const handleSetActiveOption = (option: SetStateAction<string>) => {
-        setContentVisible(false); // Esconde o conteúdo
-        setTimeout(() => { // Espera a transição ocorrer
-            setActiveOption(option);
-            setContentVisible(true); // Mostra o novo conteúdo
-            // Atualiza o caminho da imagem com base na opção selecionada
-            switch(option) {
-                case 'opcao1':
-                    setCurrentImage('caminho/para/imagem1.png');
-                    break;
-                case 'opcao2':
-                    setCurrentImage('caminho/para/imagem2.png');
-                    break;
-                case 'opcao3':
-                    setCurrentImage('caminho/para/imagem3.png');
-                    break;
-                default:
-                    setCurrentImage('caminho/para/imagemPadrao.png');
-            }
-        }, 400); // Ajuste este tempo para corresponder à duração da sua transição
+
+
+    const handleSetActiveOption = (option: string) => {
+        setContentVisible(false);
+        let newImage = ''; // Inicializa a variável para a nova imagem
+        // Define a nova imagem com base na opção selecionada
+        switch (option) {
+            case 'opcao1':
+                newImage = './images/exclusive.png';
+                break;
+            case 'opcao2':
+                newImage = './images/clients.png';
+                break;
+            case 'opcao3':
+                newImage = './images/responsive.png';
+                break;
+            default:
+                newImage = 'caminho/para/imagemPadrao.png';
+        }
+        // Atualiza a imagem imediatamente
+        changeImage(newImage);
+    
+        setTimeout(() => {
+            setActiveOption(option); // Atualiza a opção ativa
+            setContentVisible(true); // Torna o conteúdo visível
+        }, 500); // Ajuste o tempo conforme necessário para o texto
     };
+    
+    const changeImage = (newImage: string) => {
+        setImageOpacity(0); // Faz a imagem atual desaparecer
+        // Você pode ajustar esse tempo para ser menor se quiser que a imagem comece a aparecer antes do texto
+        setTimeout(() => {
+            setCurrentImage(newImage); // Atualiza a imagem
+            setImageOpacity(1); // Faz a nova imagem aparecer
+        }, 500); // Este tempo pode ser ajustado para sincronizar com a transição de texto, se necessário
+    };
+
 
     const renderContent = () => {
         switch (activeOption) {
@@ -54,10 +73,16 @@ export default function ObjectPage() {
                     {renderContent()}
                 </div>
             </div>
-            {/* Renderiza a imagem ao lado do container de navegação */}
-            <div className="image-container">
-                <img src={currentImage} alt="Imagem da opção selecionada" />
+            <div className={'image-container'}>
+                <img
+                    id="imageId"
+                    src={currentImage}
+                    style={{ opacity: imageOpacity, transition: 'opacity 0.4s ease-in-out' }}
+                    alt="Imagem selecionada"
+                />
             </div>
         </div>
     );
 }
+
+export default ObjectPage;
