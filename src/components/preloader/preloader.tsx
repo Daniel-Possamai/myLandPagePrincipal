@@ -20,7 +20,7 @@ const PreLoader = () => {
           {stage === 0 ? (
             <img src="./images/logoDesktopFinal.png" alt="Logo" />
           ) : (
-            <h1>Sejam bem vindos</h1>
+            <h1 className={ 'h1-preloader' }>Bem-vindo(a)</h1>
           )}
         </div>
       );

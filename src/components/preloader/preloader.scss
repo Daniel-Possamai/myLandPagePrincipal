@@ -8,7 +8,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: red; // Cor inicial
+    background-color: #ff313050; // Cor inicial
     transition: opacity 1s ease, background-color 1s ease-in-out;
     opacity: 1; // Começa totalmente visível
 
@@ -18,23 +18,27 @@
     }
 
     &.text-stage {
-        background-color: black; // Define o background para preto no estágio de texto
-        color: white; // Cor do texto
+        background-color: #000; // Define o background para preto no estágio de texto
+        color: #fff; // Cor do texto
         // Aqui, você pode adicionar estilos específicos para o texto, se necessário
     }
 }
 
 .preloader.text-stage {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
 }
 
 .preloader img {
-    max-width: 50%;
+    max-width: 75%;
     height: auto;
     animation: pulse 1.5s infinite;
 }
 
+.h1-preloader{
+    color: #fff;
+    font-size: 3rem;
+}
 
 @keyframes pulse {
     0% {
