@@ -65,6 +65,7 @@
     width: 0%; // Largura inicial
     background-color: #fff; // Cor da barra
     animation: carregarBarra 2.5s forwards; // Sincronize com a animação da imagem
+    transition: width 2.5s ease; // Garante uma transição suave para a largura
 }
 
 @keyframes carregarBarra {
@@ -72,10 +73,13 @@
         width: 0%;
     }
     25% {
-        width: 25%; 
+        width: 25%;
     }
     50% {
         width: 50%; 
+    }
+    75% {
+        width: 65%;
     }
     100% {
         width: 80%;
