@@ -60,6 +60,7 @@
         display: block;
       }
       .animated-title > div.text-top {
+        animation: fadeIn 3s 0.2s forwards;
         border-bottom: 1vmin solid #c10528;
         top: 0;
       }
@@ -114,6 +115,11 @@
         opacity: 0;
         bottom: 20px;
     }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 // Responsividade mob 1024px
