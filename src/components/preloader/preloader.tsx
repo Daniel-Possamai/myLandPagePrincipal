@@ -6,7 +6,7 @@ const PreLoader = () => {
   
     useEffect(() => {
       const timers = [
-        setTimeout(() => setStage(1), 2500), // Após 2 segundos, muda para tela preta com texto
+        setTimeout(() => setStage(1), 2500), // Após 2,5 segundos, muda para tela preta com texto
         setTimeout(() => setStage(2), 5000), // Após mais 2 segundos, esconde o pré-carregador
       ];
   
