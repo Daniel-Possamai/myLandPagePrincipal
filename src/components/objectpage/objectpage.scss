@@ -1,0 +1,55 @@
+.container-nav-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-and-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.navMenu{
+    width: 600px;
+}
+
+.navMenu button {
+    font-weight: 100;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    background: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: border-bottom 0.5s ease-in-out;
+    border-bottom: 1px solid transparent; /* Estado inicial transparente */
+}
+
+/* Aplica o hover apenas a botões que não têm a classe .active */
+.navMenu button:not(.active):hover {
+    border-bottom: 1px solid #fff; /* Transição para branco no hover */
+}
+
+.navMenu .active {
+    color: #fff;
+    border-bottom: 1px solid blue; /* Transição para azul no ativo */
+}
+
+.content {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+  
+  .content.hidden {
+    opacity: 0;
+  }
+  
