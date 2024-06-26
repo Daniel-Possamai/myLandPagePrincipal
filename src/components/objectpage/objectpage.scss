@@ -59,3 +59,31 @@
     opacity: 0;
   }
   
+
+
+  // Responsividade mob 1024px
+
+    @media (max-width: 1024px) {
+        .navMenu{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navMenu button {
+            font-size: 12px;
+            padding: 3px 3px;
+        }
+
+        .content {
+            font-size: 18px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+        }
+        .nav-and-content{
+            height: 220px;
+        }
+    }
