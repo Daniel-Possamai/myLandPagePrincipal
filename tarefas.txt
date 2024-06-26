@@ -3,6 +3,8 @@
 imagem da responsividade
 https://www.freepik.com/free-vector/flat-devices-design_983498.htm#fromView=search&page=1&position=22&uuid=a3335f07-47f3-4ac3-95f2-5204c4d4d923
 
+--arrumar a imagem ao lado do nav para não ficar mudando de tamanho e interferir no tamanho do nav
+
 
 --prompt 
 
