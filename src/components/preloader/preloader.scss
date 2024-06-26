@@ -45,9 +45,53 @@
       transform: scale(1);
     }
     50% {
-      transform: scale(1.08);
+      transform: scale(1.03);
     }
     100% {
       transform: scale(1);
     }
   }
+
+  .pre-loading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .preloader .barra-enfeite {
+    height: 4px; // Altura da barra
+    width: 0%; // Largura inicial
+    background-color: #fff; // Cor da barra
+    animation: carregarBarra 2.5s forwards; // Sincronize com a animação da imagem
+}
+
+@keyframes carregarBarra {
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 25%; 
+    }
+    50% {
+        width: 50%; 
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+
+
+
+// Responsividade mob 1024px
+
+@media (max-width: 1024px) {
+    .h1-preloader{
+        font-size: 2rem;
+    }
+    .pre-loading{
+        gap: 5px;
+    }
+}

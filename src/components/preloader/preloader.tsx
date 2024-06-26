@@ -17,8 +17,7 @@ const PreLoader = () => {
   
     return (
         <div className={`preloader ${stage === 1 ? 'text-stage' : ''} ${stage === 2 ? 'fade-out' : ''}`}>
-          {stage === 0 ? (
-            <img src="./images/logoDesktopFinal.png" alt="Logo" />
+          {stage === 0 ? ( <div className="pre-loading"><><img src="./images/logoDesktopFinal.png" alt="Logo" /><div className="barra-enfeite"></div></></div>
           ) : (
             <h1 className={ 'h1-preloader' }>Bem-vindo(a)</h1>
           )}
