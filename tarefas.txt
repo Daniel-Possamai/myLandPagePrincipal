@@ -1,2 +1,7 @@
 - Lembrar de fazer a logica para travar o scroll ate que a animação do hero não termine, após terminar a animação liberar o scroll para o usuario
 
+
+
+--prompt 
+
+(Consigo simular um objeto 3d usando somente html css e ts? Eu quero espelhar minhas pagina em um elemento "3d" que pode ser mexido com o mouse como se fosse uma landpage de exemplo para os clientes)
