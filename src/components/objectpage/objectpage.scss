@@ -95,6 +95,10 @@
   // Responsividade mob 1024px
 
     @media (max-width: 1024px) {
+        .container-nav-menu{
+            flex-direction: column;
+        }
+
         .navMenu{
             width: 100%;
             display: flex;
@@ -115,6 +119,16 @@
             width: 200px;
         }
         .nav-and-content{
-            height: 220px;
+            height: 170px;
+        }
+
+        .image-container{
+            width: 200px;
+            height: 300px;
+        
+            img{
+                width: 300px;
+                object-fit: contain;
+            }
         }
     }
