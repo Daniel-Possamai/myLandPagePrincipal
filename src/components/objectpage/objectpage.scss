@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0000002a; /* Cor de fundo suave */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    // background-color: #0000002a; /* Cor de fundo suave */
     padding: 20px; /* Espaçamento interno para não colar o conteúdo nas bordas */
     border-radius: 20px; /* Bordas arredondadas para suavidade */
 }
@@ -45,8 +44,10 @@
 }
 
 .content {
-    font-size: 36px;
-    font-weight: 300;
+    font-family: "Playwrite NG Modern";
+    font-style: italic;
+    font-size: 34px;
+    font-weight: 200;
     text-align: center;
     width: 100%;
     display: flex;
@@ -106,7 +107,7 @@
         }
 
         .content {
-            font-size: 18px;
+            font-size: 16px;
             text-align: center;
             display: flex;
             align-items: center;
