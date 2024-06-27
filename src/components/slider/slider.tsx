@@ -74,7 +74,7 @@ const Slider: React.FC = () => {
           <SliderItem
             imageUrl="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp"
             date="26 December 2019"
-            title="Lorem Ipsum Dolor"
+            title="Lorem Ipsum "
             text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?"
           />
           {/* Adicionar mais SliderItems conforme necessário */}
