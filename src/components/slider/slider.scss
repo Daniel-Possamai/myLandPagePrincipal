@@ -5,6 +5,15 @@
     font-family: 'Fira Sans', sans-serif;
       display: flex;
     }
+    .blog-slider__item {
+        opacity: 1; // Torna todos os slides visíveis por padrão
+        transition: opacity .3s ease;
+    }
+    
+    // Esconde os slides que não são ativos
+    .swiper-slide:not(.swiper-slide-active) .blog-slider__item {
+        opacity: 0;
+    }
     
     .blog-slider {
         width: 95%;
@@ -16,7 +25,9 @@
         padding: 25px;
         border-radius: 25px;
         height: 400px;
-      transition: all .3s;
+        transition: all .3s;
+        
+        
       
        
       @media screen and (max-width: 992px) {

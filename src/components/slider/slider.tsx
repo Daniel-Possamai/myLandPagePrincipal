@@ -42,8 +42,9 @@ const Slider: React.FC = () => {
       effect: 'fade',
       loop: true,
       mousewheel: {
-        invert: false,
+      invert: false,
       },
+      slidesPerView: 1,
     });
 
     setSwiper(swiperInstance);
