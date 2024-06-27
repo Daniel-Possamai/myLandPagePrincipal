@@ -4,7 +4,7 @@
     // background-color: #0000002a; /* Cor de fundo suave */
     padding: 20px; /* Espaçamento interno para não colar o conteúdo nas bordas */
     border-radius: 20px; /* Bordas arredondadas para suavidade */
-    height: 900px;
+    height: 400px;
     gap: 10px;
 }
 
@@ -92,6 +92,9 @@
 
 //Responsividade tela Big Tela 1440px
 @media (min-width: 1480px) {
+    .container-nav-menu{
+        height: 600px;
+    }
     .navMenu{
         width: 800px;
     }
