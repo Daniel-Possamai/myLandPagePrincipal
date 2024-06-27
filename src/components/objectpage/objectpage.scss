@@ -1,10 +1,11 @@
 .container-nav-menu{
     display: flex;
     justify-content: center;
-    align-items: center;
     // background-color: #0000002a; /* Cor de fundo suave */
     padding: 20px; /* Espaçamento interno para não colar o conteúdo nas bordas */
     border-radius: 20px; /* Bordas arredondadas para suavidade */
+    height: 900px;
+    gap: 10px;
 }
 
 .nav-and-content{
@@ -23,7 +24,7 @@
 .navMenu button {
     font-family: "kanit";
     font-weight: 100;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     border: none;
     background: none;
@@ -72,11 +73,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 450px;
     height: 300px;
 
     img{
-        width: 350px;
+        width: 400px;
         object-fit: contain;
     }
 }
@@ -89,12 +90,39 @@
 
 
 
+//Responsividade tela Big Tela 1440px
+@media (min-width: 1480px) {
+    .navMenu{
+        width: 800px;
+    }
+    .navMenu button {
+        font-size: 30px;
+    }
+    .content {
+        font-size: 36px;
+    }
+    .image-container{
+        width: 700px;
+        height: 450px;
+    
+        img{
+            width: 650px;
+            
+        }
+    }
+}
   
 
 
   // Responsividade mob 1024px
 
     @media (max-width: 1024px) {
+        .container-nav-menu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
         .container-nav-menu{
             flex-direction: column;
         }
