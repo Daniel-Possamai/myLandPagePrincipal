@@ -1,0 +1,36 @@
+
+.container-g-slider{
+  border: 1px solid green;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-m-slider{
+  border: 1px solid yellow;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  width: 900px;
+  height: 350px;
+  border-radius: 25px;
+
+  .image-slider{
+    border: 1px solid red;
+    border-radius: 25px;
+    background-color: #ff000036;
+    width: 300px;
+    position: absolute;
+    left: -80px;
+
+    img{
+      width: 100%;
+    }
+  }
+}
+
+
