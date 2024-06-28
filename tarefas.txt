@@ -13,6 +13,9 @@ slider => passar as informações para o slider usando props e as informações 
 
 https://codepen.io/JavaScriptJunkie/details/WgRBxw
 
+estudo que comprova que ter um site na internet aumenta a quantidade de clientes
+https://www.scielo.br/j/gp/a/BYS8dyDMsMrRvBcn3bXCFrL/
+
 
 --prompt 
 
