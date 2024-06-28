@@ -9,7 +9,7 @@ https://www.freepik.com/free-vector/flat-devices-design_983498.htm#fromView=sear
 
 --colocar background do nav em todo o container que tem o nav e a imagem que está sendo mostrada (Ou tirar ele por completo) ✔
 
-slider para os projetos (refazer do zero seguindo o modelo que esta no Canva)
+slider => passar as informações para o slider usando props e as informações vão estar no utils do projeto para uma melhor organização e codigo mais limpo, (refazer slider do zero seguindo o modelo que esta no Canva)
 
 https://codepen.io/JavaScriptJunkie/details/WgRBxw
 
