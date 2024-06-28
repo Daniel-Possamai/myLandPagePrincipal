@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import Swiper from 'swiper';
+import React, { useState } from 'react';
 import './slider.scss';
 
 interface SliderItemProps {
@@ -7,79 +6,75 @@ interface SliderItemProps {
   date: string;
   title: string;
   text: string;
+  isActive: boolean;
 }
 
-const SliderItem: React.FC<SliderItemProps> = ({ imageUrl, date, title, text }) => (
-  <div className="blog-slider__item swiper-slide">
-    <div className="blog-slider__img">
-      <img src={imageUrl} alt="" />
-    </div>
-    <div className="blog-slider__content">
-      <span className="blog-slider__code">{date}</span>
-      <div className="blog-slider__title">{title}</div>
-      <div className="blog-slider__text">{text}</div>
-      <a href="#" className="blog-slider__button">READ MORE</a>
-    </div>
+const SliderItem: React.FC<SliderItemProps> = ({ imageUrl, date, title, text, isActive }) => (
+  <div className={`blog-slider__item ${isActive ? 'swiper-slide-active' : ''}`} 
+  style={{
+    visibility: isActive ? 'visible' : 'hidden',
+    opacity: isActive ? 1 : 0,
+    transition: 'opacity 0.5s ease, visibility 0s 0.5s, max-height 0.5s ease',
+    maxHeight: isActive ? '1000px' : '0', // Ajuste conforme necessário para acomodar o conteúdo
+    // overflow: 'hidden'
+  }}
+>
+  <div className="blog-slider__img">
+    <img src={imageUrl} alt="" />
   </div>
-);
-
-const SliderPagination: React.FC<{ slides: number; activeIndex: number }> = ({ slides, activeIndex }) => (
-  <div className="blog-slider__pagination">
-    {Array.from({ length: slides }).map((_, index) => (
-      <span key={index} className={`blog-slider__pagination-bullet ${index === activeIndex ? 'active' : ''}`} />
-    ))}
+  <div className="blog-slider__content">
+    <span className="blog-slider__code">{date}</span>
+    <div className="blog-slider__title">{title}</div>
+    <div className="blog-slider__text">{text}</div>
+    <a href="#" className="blog-slider__button">READ MORE</a>
   </div>
+</div>
 );
 
 const Slider: React.FC = () => {
-  const [swiper, setSwiper] = useState<Swiper | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
-
-  useEffect(() => {
-    const swiperInstance = new Swiper('.blog-slider', {
-      direction: 'vertical',
-      spaceBetween: 30,
-      effect: 'fade',
-      loop: true,
-      mousewheel: {
-      invert: false,
-      },
-      slidesPerView: 1,
-    });
-
-    setSwiper(swiperInstance);
-
-    return () => swiperInstance.destroy();
-  }, []);
-
-  useEffect(() => {
-    if (swiper) {
-      swiper.on('slideChange', () => {
-        setActiveIndex(swiper.realIndex);
-      });
+  const slides = [
+    {
+      imageUrl: "https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp",
+      date: "26 December 2019",
+      title: "Lorem Ipsum Dolor",
+      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?"
+    },
+    {
+      imageUrl: "https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp",
+      date: "26 December 2019",
+      title: "Lorem Ipsum ",
+      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?"
     }
-  }, [swiper]);
+    // Adicione mais slides conforme necessário
+  ];
 
+  const nextSlide = () => setActiveIndex((prevIndex) => (prevIndex + 1) % slides.length);
+  const prevSlide = () => setActiveIndex((prevIndex) => (prevIndex - 1 + slides.length) % slides.length);
+  const setSlide = (index: number) => setActiveIndex(index);
+  
   return (
     <div className={'container-slider'}>
       <div className="blog-slider">
         <div className="blog-slider__wrp swiper-wrapper">
-          {/* Exemplo de uso do SliderItem, repetir conforme necessário */}
-          <SliderItem
-            imageUrl="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp"
-            date="26 December 2019"
-            title="Lorem Ipsum Dolor"
-            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?"
-          />
-          <SliderItem
-            imageUrl="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp"
-            date="26 December 2019"
-            title="Lorem Ipsum "
-            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?"
-          />
-          {/* Adicionar mais SliderItems conforme necessário */}
+          {slides.map((slide, index) => (
+            <SliderItem
+              key={index}
+              imageUrl={slide.imageUrl}
+              date={slide.date}
+              title={slide.title}
+              text={slide.text}
+              isActive={activeIndex === index}
+            />
+          ))}
         </div>
-        <SliderPagination slides={2} activeIndex={activeIndex} /> {/* Atualize o número de slides conforme necessário */}
+        <div className="slider-controls">
+          <button onClick={prevSlide}>Prev</button>
+          {slides.map((_, index) => (
+            <button key={index} onClick={() => setSlide(index)}>{index + 1}</button>
+          ))}
+          <button onClick={nextSlide}>Next</button>
+        </div>
       </div>
     </div>
   );

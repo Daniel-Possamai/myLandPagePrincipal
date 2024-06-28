@@ -5,11 +5,11 @@ https://www.freepik.com/free-vector/flat-devices-design_983498.htm#fromView=sear
 
 --arrumar a imagem ao lado do nav para não ficar mudando de tamanho e interferir no tamanho do nav ✔
 
---ajustar tamanho do nav e da imagem na tela maior que 1400px (auemntar tamanho das coisas) => [objectoage]
+--ajustar tamanho do nav e da imagem na tela maior que 1400px (auemntar tamanho das coisas) => [objectoage] ✔
 
---colocar background do nav em todo o container que tem o nav e a imagem que está sendo mostrada (Ou tirar ele por completo)
+--colocar background do nav em todo o container que tem o nav e a imagem que está sendo mostrada (Ou tirar ele por completo) ✔
 
-slider para os projetos
+slider para os projetos (refazer do zero seguindo o modelo que esta no Canva)
 
 https://codepen.io/JavaScriptJunkie/details/WgRBxw
 
