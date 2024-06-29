@@ -8,6 +8,13 @@ import Slider from "../../components/slider/slider"
 
 
 
+interface SliderProps {
+    title: string,
+    description: string,
+    url: string,
+    img: string
+}
+
 
 
 export default function Home(){
