@@ -8,7 +8,7 @@ import Slider from "../../components/slider/slider"
 
 
 
-interface SliderProps {
+export interface SliderProps {
     title: string,
     description: string,
     url: string,
