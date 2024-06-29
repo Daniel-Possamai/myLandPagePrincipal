@@ -1,4 +1,5 @@
-import { SliderProps } from '@mui/material'
+
+import { SliderProps } from '../../pages/home/home';
 import './slider.scss'
 
 
@@ -10,27 +11,27 @@ export default function Slider(props: PropsSlider) {
   
   const { slides } = props
 
-  slides.map((slide, index) => {
-    console.log(slide.title)
-  })
 
 
   return (
     <div className="container-g-slider">
-      <div className="container-m-slider">
-        <div className="image-slider">
-          <img src="./images/exclusive.png" alt="" />  
+      {slides.map((slide, index) => (
+        <div key={index} className="container-m-slider">
+          <div className="image-slider">
+            <img src={slide.img} alt="" />  
+          </div>
+          <div className="infos-slider">
+            <h2>{slide.title}</h2>
+            <p>{slide.description}</p>
+            <button>Botão</button>
+          </div>
+          <div className="nav-slider">
+            {slides.map((_, idx) => (
+              <button key={idx}>{idx + 1}</button>
+            ))}
+          </div>
         </div>
-        <div className="infos-slider">
-          <h2></h2>
-          <p>Descrição do slide</p>
-          <button>Botão</button>
-        </div>
-        <div className="nav-slider">
-          <button>1</button>
-          {/* botoes conforme a quantidade de slides */}
-        </div>
-      </div>
+      ))}
     </div>
-  )
+  );
 }
