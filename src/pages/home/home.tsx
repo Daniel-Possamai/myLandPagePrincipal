@@ -5,6 +5,8 @@ import "./home.scss"
 import { useEffect, useState } from "react"
 import Objectpage from "../../components/objectpage/objectpage"
 import Slider from "../../components/slider/slider"
+import { SliderData } from "../../utils/data"
+
 
 
 
@@ -38,7 +40,7 @@ export default function Home(){
                 {/* <div className="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eius laboriosam officia vitae illum! Omnis dolore voluptatem eveniet similique debitis nisi quod iure, aliquid culpa vitae eos cum? Sit, voluptatibus?</div> */}
                 <Objectpage/>
                 {/* <div className="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eius laboriosam officia vitae illum! Omnis dolore voluptatem eveniet similique debitis nisi quod iure, aliquid culpa vitae eos cum? Sit, voluptatibus?</div> */}
-                <Slider/>
+                <Slider slides={ SliderData }/>
             {/* </div>
         } */}
             

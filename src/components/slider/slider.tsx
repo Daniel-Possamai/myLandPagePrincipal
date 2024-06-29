@@ -1,10 +1,18 @@
+import { SliderProps } from '@mui/material'
 import './slider.scss'
 
 
+interface PropsSlider{
+  slides: SliderProps[]
+}
 
+export default function Slider(props: PropsSlider) {
+  
+  const { slides } = props
 
-export default function Slider() {
-
+  slides.map((slide, index) => {
+    console.log(slide.title)
+  })
 
 
   return (
@@ -14,7 +22,7 @@ export default function Slider() {
           <img src="./images/exclusive.png" alt="" />  
         </div>
         <div className="infos-slider">
-          <h2>Titulo do slide</h2>
+          <h2></h2>
           <p>Descrição do slide</p>
           <button>Botão</button>
         </div>
