@@ -6,41 +6,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+}
+
+.carousel-container{
+  border: 1px solid red;
+  width: 950px;
+  height: 350px;
+  display: flex;
+  padding: 20px;
 }
 
 .container-m-slider{
-  border: 1px solid yellow;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3%;
-  width: 900px;
-  height: 350px;
-  border-radius: 25px;
-
-  .image-slider{
-    border: 1px solid red;
-    border-radius: 25px;
-    background-color: #ff000036;
-    width: 300px;
-    position: absolute;
-    left: -80px;
-
-    img{
-      width: 100%;
-    }
+  border: 1px solid orangered;
+  max-width: 900px;
+  height: 300px;
+  img{
+    width: 150px;
   }
-  .infos-slider{
-    align-self: flex-start;
-  }
-
-  .nav-slider{
-    border: 1px solid blue;
-    position: absolute;
-    right: 40px;
-  }
-
 }
-
-
