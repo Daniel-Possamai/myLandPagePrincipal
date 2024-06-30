@@ -11,17 +11,24 @@
 
 .carousel-container{
   border: 1px solid red;
-  width: 950px;
+  width: 500px;
   height: 350px;
   display: flex;
-  padding: 20px;
+  // padding: 20px;
 }
 
-.container-m-slider{
+.carousel-item{
+  padding: 40px;
   border: 1px solid orangered;
-  max-width: 900px;
-  height: 300px;
+  
+  .container-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   img{
     width: 150px;
   }
 }
+
