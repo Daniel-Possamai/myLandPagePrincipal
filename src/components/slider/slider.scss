@@ -1,6 +1,5 @@
 
 .container-g-slider{
-  border: 1px solid green;
   width: 100%;
   height: 800px;
   display: flex;
@@ -11,7 +10,7 @@
 
 .carousel-container{
   
-  background-color: #00000027;
+  background-color: #00000077;
   width: 700px;
   height: 550px;
   display: flex;
@@ -21,7 +20,6 @@
 
 .carousel-item{
   padding: 40px;
-  border: 1px solid red;
   height: 550px;
   border-radius: 25px;
   
@@ -42,7 +40,7 @@
       width: 80%;
       font-size: 18px;
       font-weight: 100;
-      text-align: left;
+      text-align: center;
     }
     a{
       background-color: red;
@@ -62,23 +60,47 @@
     img{
       width: 300px;
     }
-
-    .custom-dot-list-style{
-      
-    }
   }
-
-
-
 }
 
+// Estilizando a lista de pontos de navegação do carrossel
+.custom-dot-list-style {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  // Estilizando cada ponto individualmente
+  li {
+    background-color: #fff; // Cor de fundo dos pontos
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px; // Espaçamento entre os pontos
+    transition: background-color 0.3s, transform 0.3s; // Transição suave da cor de fundo
+
+    &:hover {
+      transform: scale(1.05); // Aumenta o tamanho do ponto em 50%
+    }
+
+    // Estilizando o ponto ativo
+    &.react-multi-carousel-dot--active {
+      background-color: #ff0000; // Cor de fundo do ponto ativo
+    }
+
+    button {
+      opacity: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
 
 // Responsividade mob 1024px
 
 @media (max-width: 1024px) {
   .carousel-container{
   
-    background-color: #00000027;
+
     height: 450px;
   }
 
@@ -99,6 +121,38 @@
 
       img{
         width: 150px;
+      }
+      
+    }
+  }
+
+  .custom-dot-list-style {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    // Estilizando cada ponto individualmente
+    li {
+      background-color: #fff; // Cor de fundo dos pontos
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin: 5px 5px; // Espaçamento entre os pontos
+      transition: background-color 0.3s, transform 0.3s; // Transição suave da cor de fundo
+  
+      &:hover {
+        transform: scale(1.05); // Aumenta o tamanho do ponto em 50%
+      }
+  
+      // Estilizando o ponto ativo
+      &.react-multi-carousel-dot--active {
+        background-color: #ff0000; // Cor de fundo do ponto ativo
+      }
+  
+      button {
+        opacity: 0;
+        height: 100%;
+        width: 100%;
       }
     }
   }
