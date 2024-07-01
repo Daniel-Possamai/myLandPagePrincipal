@@ -63,7 +63,7 @@ export default function Slider(props: PropsSlider) {
             <img src={slide.img} alt={slide.title} />
             <h3> { slide.title } </h3>
             <p> { slide.description } </p>
-            <a href={ slide.url }>Acesse</a>
+            <a href={ slide.url } target='_blank'>Acesse</a>
 
           </div>
         ))}
