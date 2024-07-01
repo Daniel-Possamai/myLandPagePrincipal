@@ -2,8 +2,9 @@ import { SliderProps } from "../pages/home/home";
 
 export const SliderData: SliderProps[] = [
     {
-        title: "Titulo do slide",
-        description: "Descrição do slide Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae? Debitis magnam alias aliquid odit dolorum, quas eos nostrum aspernatur dolor ducimus praesentium? Ea ratione eveniet magni, vitae maiores tempore. ",
+        title: "Clínica de Fisioterapia",
+        description: `Site simples e responsivo para apresentar a clínica.
+        Destaca serviços, equipe e contato.`,
         url: "https://www.google.com",
         img: "./images/exclusive.png"
     },

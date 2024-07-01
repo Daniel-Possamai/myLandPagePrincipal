@@ -4,7 +4,7 @@
   width: 100%;
   height: 800px;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   padding: 20px;
 }
@@ -32,31 +32,74 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
     
     h3{
       font-size: 32px;
+      text-align: center;
     }
     p{
       width: 80%;
       font-size: 18px;
       font-weight: 100;
+      text-align: left;
     }
     a{
       background-color: red;
+      font-weight: bold;
+      letter-spacing: 2px;
       text-decoration: none;
       color: #fff;
+      padding: 5px 10px;
+      border-radius: 25px;
+      transition: box-shadow 0.4s ease-in-out;
     }
     //aplicar um efeito de glow ao passar o mouse em cima do a
     a:hover{
       box-shadow: 0 0 10px 0 red;
     }
+
+    img{
+      width: 300px;
+    }
+
+    .custom-dot-list-style{
+      
+    }
   }
 
 
 
-  img{
-    width: 300px;
-  }
 }
 
+
+// Responsividade mob 1024px
+
+@media (max-width: 1024px) {
+  .carousel-container{
+  
+    background-color: #00000027;
+    height: 450px;
+  }
+
+
+  .carousel-item{
+    height: 450px;
+  
+    .container-items{
+      
+      h3{
+        font-size: 18px;
+      }
+      p{
+        width: 95%;
+        font-size: 16px;
+        text-align: center;
+      }
+
+      img{
+        width: 150px;
+      }
+    }
+  }
+}

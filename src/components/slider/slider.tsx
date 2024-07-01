@@ -42,7 +42,7 @@ export default function Slider(props: PropsSlider) {
   return (
     <div className="container-g-slider">
       <Carousel
-        swipeable={false}
+        swipeable={true}
         draggable={false}
         showDots={true}
         responsive={responsive}
