@@ -43,8 +43,13 @@
       font-weight: 100;
     }
     a{
+      background-color: red;
       text-decoration: none;
       color: #fff;
+    }
+    //aplicar um efeito de glow ao passar o mouse em cima do a
+    a:hover{
+      box-shadow: 0 0 10px 0 red;
     }
   }
 
