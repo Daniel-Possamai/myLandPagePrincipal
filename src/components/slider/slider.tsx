@@ -43,7 +43,7 @@ export default function Slider(props: PropsSlider) {
     <div className="container-g-slider">
       <Carousel
         swipeable={true}
-        draggable={false}
+        draggable={true}
         showDots={true}
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
