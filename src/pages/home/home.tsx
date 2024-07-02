@@ -32,17 +32,17 @@ export default function Home(){
     return (
         <div className={ 'container-home' }>
 
-            {/* { loading ?
+            { loading ?
              ( <PreLoader/> ) 
              : 
              <div className={ 'container-Englobador' }>
-                <Hero/> */}
+                <Hero/>
                 {/* <div className="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eius laboriosam officia vitae illum! Omnis dolore voluptatem eveniet similique debitis nisi quod iure, aliquid culpa vitae eos cum? Sit, voluptatibus?</div> */}
                 <Objectpage/>
                 {/* <div className="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eius laboriosam officia vitae illum! Omnis dolore voluptatem eveniet similique debitis nisi quod iure, aliquid culpa vitae eos cum? Sit, voluptatibus?</div> */}
                 <Slider slides={ SliderData }/>
-            {/* </div>
-        } */}
+            </div>
+        }
             
 
             
