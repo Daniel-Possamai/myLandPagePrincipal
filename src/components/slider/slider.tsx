@@ -1,4 +1,5 @@
 
+import { useState } from 'react';
 import { SliderProps } from '../../pages/home/home';
 import './slider.scss'
 import Carousel from "react-multi-carousel";
@@ -33,10 +34,30 @@ interface PropsSlider {
   slides: SliderProps[]
 }
 
-export default function Slider(props: PropsSlider) {
+interface ModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  imgSrc: string;
+}
+
+export default function Slider(props: PropsSlider, modalProps: ModalProps) {
 
   const { slides } = props
+  const { isOpen, onClose, imgSrc } = modalProps
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentImage, setCurrentImage] = useState('');
 
+  // Funções para abrir e fechar o modal
+  const openModal = (imgSrc: string) => {
+    setCurrentImage(imgSrc);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+  
+ 
 
 
   return (
@@ -49,8 +70,7 @@ export default function Slider(props: PropsSlider) {
         ssr={true} // means to render carousel on server-side.
         infinite={true}
         autoPlaySpeed={1000}
-        keyBoardControl={true}
-        // customTransition="all .5"
+        keyBoardControl={false}
         transitionDuration={500}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
@@ -60,7 +80,7 @@ export default function Slider(props: PropsSlider) {
 
         {slides.map((slide, index) => (
           <div key={index} className={ 'container-items' }>
-            <img src={slide.img} alt={slide.title} />
+            <img src={slide.img} alt={slide.title} onClick={() => openModal(slide.img)} />
             <h3> { slide.title } </h3>
             <p> { slide.description } </p>
             <a href={ slide.url } target='_blank'>Acesse</a>
@@ -68,6 +88,14 @@ export default function Slider(props: PropsSlider) {
           </div>
         ))}
       </Carousel>
+      {isModalOpen && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div className="modal-content" onClick={e => e.stopPropagation()}>
+            <img src={currentImage} alt="Modal" />
+            <button onClick={closeModal}>X</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
