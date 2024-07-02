@@ -62,6 +62,9 @@ export default function Slider(props: PropsSlider, modalProps: ModalProps) {
 
   return (
     <div className="container-g-slider">
+      <div className="info-projetos">
+        <h1>Projetos Realizados</h1>
+      </div>
       <Carousel
         swipeable={true}
         draggable={true}
@@ -78,7 +81,7 @@ export default function Slider(props: PropsSlider, modalProps: ModalProps) {
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item"
       >
-
+        
         {slides.map((slide, index) => (
           <div key={index} className={ 'container-items' }>
             <img src={slide.img} alt={slide.title} onClick={() => openModal(slide.img)} />
