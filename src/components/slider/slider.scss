@@ -41,6 +41,7 @@
     }
     p{
       width: 80%;
+      min-height: 100px;
       font-size: 18px;
       font-weight: 100;
       text-align: center;
@@ -64,6 +65,9 @@
       border: 3px solid #ffffffb2;
       width: 400px;
       border-radius: 25px;
+    }
+    img:hover{
+      cursor: pointer;
     }
   }
 }
@@ -168,6 +172,7 @@
         font-size: 40px;
       }
       p{
+        min-height: 200px;
         font-size: 28px;
       }
       a{

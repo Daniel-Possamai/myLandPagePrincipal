@@ -69,7 +69,8 @@ export default function Slider(props: PropsSlider, modalProps: ModalProps) {
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
         infinite={true}
-        autoPlaySpeed={1000}
+        autoPlay={true}
+        autoPlaySpeed={2500}
         keyBoardControl={false}
         transitionDuration={500}
         containerClass="carousel-container"
