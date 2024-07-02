@@ -37,9 +37,7 @@ export default function Home(){
              : 
              <div className={ 'container-Englobador' }>
                 <Hero/>
-                {/* <div className="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eius laboriosam officia vitae illum! Omnis dolore voluptatem eveniet similique debitis nisi quod iure, aliquid culpa vitae eos cum? Sit, voluptatibus?</div> */}
                 <Objectpage/>
-                {/* <div className="teste">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eius laboriosam officia vitae illum! Omnis dolore voluptatem eveniet similique debitis nisi quod iure, aliquid culpa vitae eos cum? Sit, voluptatibus?</div> */}
                 <Slider slides={ SliderData }/>
             </div>
         }
