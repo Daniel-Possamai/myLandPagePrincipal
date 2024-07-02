@@ -65,9 +65,11 @@
       border: 3px solid #ffffffb2;
       width: 400px;
       border-radius: 25px;
+      transition: box-shadow 0.4s ease-in-out;
     }
     img:hover{
       cursor: pointer;
+      box-shadow: 0 0 10px 0 red;
     }
   }
 }
