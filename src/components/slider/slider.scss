@@ -96,6 +96,39 @@
   }
 }
 
+//Responsividade tela Big Tela 1440px
+@media (min-width: 1440px){
+  .carousel-container{
+  
+    width: 1300px;
+    height: 750px;
+  }
+
+  .carousel-item{
+    height: 750px;
+    
+    
+    .container-items{
+      
+      
+      h3{
+        font-size: 40px;
+      }
+      p{
+        font-size: 28px;
+      }
+      a{
+        font-size: 28px;
+      }
+  
+      img{
+        width: 500px;
+      }
+    }
+  }
+}
+
+
 // Responsividade mob 1024px
 
 @media (max-width: 1024px) {
