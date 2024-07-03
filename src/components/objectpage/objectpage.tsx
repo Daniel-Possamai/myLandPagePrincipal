@@ -1,5 +1,6 @@
+import { useState } from 'react';
 import './objectpage.scss'
-import { SetStateAction, useState } from 'react';
+
 
 
 

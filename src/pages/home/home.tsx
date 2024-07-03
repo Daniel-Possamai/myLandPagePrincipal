@@ -5,8 +5,7 @@ import { useEffect, useState } from "react"
 import Objectpage from "../../components/objectpage/objectpage"
 import Slider from "../../components/slider/slider"
 import { SliderData } from "../../utils/data"
-import { useInView } from 'react-intersection-observer';
-import { motion } from 'framer-motion';
+
 
 
 
@@ -23,17 +22,6 @@ export interface SliderProps {
 export default function Home(){
     const [loading, setLoading] = useState(true)
 
-    // Hook para Objectpage
-    const { ref: refObjectpage, inView: inViewObjectpage } = useInView({
-        triggerOnce: true,
-        rootMargin: '-200px 0px',
-    });
-
-    // Hook para Slider
-    const { ref: refSlider, inView: inViewSlider } = useInView({
-        triggerOnce: true,
-        rootMargin: '-200px 0px',
-    });
 
 
     useEffect(() => {
@@ -51,23 +39,11 @@ export default function Home(){
              : 
              <div className={ 'container-Englobador' }>
                 <Hero/>
-                
-                <motion.div
-                    ref={refObjectpage}
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: inViewObjectpage ? 1 : 0, y: inViewObjectpage ? 0 : 50 }}
-                    transition={{ duration: 2.5, ease: "easeInOut"}}
-                >
-                    <Objectpage />
-                </motion.div>
-                <motion.div
-                    ref={refSlider}
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: inViewSlider ? 1 : 0, y: inViewSlider ? 0 : 50 }}
-                    transition={{ duration: 2.5, ease: "easeInOut"}}
-                >
-                    <Slider slides={ SliderData }/>
-                </motion.div>
+
+                <Objectpage />
+
+                <Slider slides={ SliderData }/>
+
                 
             </div>
         }

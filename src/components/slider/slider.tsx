@@ -84,10 +84,10 @@ export default function Slider(props: PropsSlider) {
         
         {slides.map((slide, index) => (
           <div key={index} className={ 'container-items' }>
-            <img src={slide.img} alt={slide.title} onClick={() => openModal(slide.img)} />
+            <img src={slide.img} alt={slide.title} onClick={() => openModal(slide.img)}/>
             <h3> { slide.title } </h3>
             <p> { slide.description } </p>
-            <a href={ slide.url } target='_blank'>Acesse</a>
+            <a href={ slide.url } target='_blank' rel="noreferrer">Acesse</a>
 
           </div>
         ))}
