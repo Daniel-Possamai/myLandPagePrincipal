@@ -1,4 +1,3 @@
-import Logo from "../../components/logo/logo"
 import Hero from "../../components/hero/hero"
 import PreLoader from "../../components/preloader/preloader"
 import "./home.scss"
@@ -57,7 +56,7 @@ export default function Home(){
                     ref={refObjectpage}
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: inViewObjectpage ? 1 : 0, y: inViewObjectpage ? 0 : 50 }}
-                    transition={{ duration: 1.5, ease: "easeInOut"}}
+                    transition={{ duration: 2.5, ease: "easeInOut"}}
                 >
                     <Objectpage />
                 </motion.div>
@@ -65,7 +64,7 @@ export default function Home(){
                     ref={refSlider}
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: inViewSlider ? 1 : 0, y: inViewSlider ? 0 : 50 }}
-                    transition={{ duration: 1.5, ease: "easeInOut"}}
+                    transition={{ duration: 2.5, ease: "easeInOut"}}
                 >
                     <Slider slides={ SliderData }/>
                 </motion.div>

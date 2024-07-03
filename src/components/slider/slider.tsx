@@ -34,16 +34,16 @@ interface PropsSlider {
   slides: SliderProps[]
 }
 
-interface ModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  imgSrc: string;
-}
+// interface ModalProps {
+//   isOpen: boolean;
+//   onClose: () => void;
+//   imgSrc: string;
+// }
 
-export default function Slider(props: PropsSlider, modalProps: ModalProps) {
+export default function Slider(props: PropsSlider) {
 
   const { slides } = props
-  const { isOpen, onClose, imgSrc } = modalProps
+  // const { isOpen, onClose, imgSrc } = modalProps
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState('');
 
