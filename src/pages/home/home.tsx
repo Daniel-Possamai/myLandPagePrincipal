@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import Objectpage from "../../components/objectpage/objectpage"
 import Slider from "../../components/slider/slider"
 import { SliderData } from "../../utils/data"
+import Faaq from "../../components/faq/faq"
 
 
 
@@ -43,6 +44,8 @@ export default function Home(){
                 <Objectpage />
 
                 <Slider slides={ SliderData }/>
+
+                <Faaq/>
 
                 
             </div>

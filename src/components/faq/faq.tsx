@@ -4,7 +4,7 @@ import Faq from "react-faq-component"
 
 
 const data = {
-    title: "FAQ (How it works)",
+    title: "FAQ (perguntas frequentes)",
     rows: [
         {
             title: "Lorem ipsum dolor sit amet,",
@@ -33,11 +33,11 @@ const data = {
 };
 
 const styles = {
-    // bgColor: 'white',
-    titleTextColor: "blue",
-    rowTitleColor: "blue",
-    // rowContentColor: 'grey',
-    // arrowColor: "red",
+    bgColor: '#4242422c',
+    titleTextColor: "#fff",
+    rowTitleColor: "#fff",
+    rowContentColor: '#c2c2c2',
+    arrowColor: "red",
 };
 
 
