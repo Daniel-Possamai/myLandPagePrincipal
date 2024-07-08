@@ -33,10 +33,10 @@ const data = {
 };
 
 const styles = {
-    bgColor: '#4242422c',
+    bgColor: 'none',
     titleTextColor: "#fff",
     rowTitleColor: "#fff",
-    rowContentColor: '#c2c2c2',
+    rowContentColor: '#e7e7e7',
     arrowColor: "red",
 };
 
@@ -53,11 +53,13 @@ export default function Faaq(){
     
     return (
         <div className="container-G-Faq">
-            <Faq
-                data={data}
-                styles={styles}
-                config={config}
-            />
+            <div className="custom-faq-container">
+                <Faq
+                    data={data}
+                    styles={styles}
+                    config={config}
+                />
+             </div>
         </div>
     )
 }
