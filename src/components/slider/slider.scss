@@ -54,17 +54,20 @@
       text-align: center;
     }
     a{
-      background-color: red;
+      background-color: #ffffff2c;
+      border: 2px solid red;
       font-weight: bold;
-      letter-spacing: 2px;
       text-decoration: none;
-      color: #fff;
-      padding: 5px 10px;
+      color: white;
+      padding: 5px 20px;
       border-radius: 25px;
-      transition: box-shadow 0.4s ease-in-out;
+      transition: box-shadow 0.4s, background 0.3s, color 0.3s ease-in-out;
+      text-transform: uppercase;
     }
     //aplicar um efeito de glow ao passar o mouse em cima do a
     a:hover{
+      background-color: red;
+      color: white;
       box-shadow: 0 0 10px 0 red;
     }
 

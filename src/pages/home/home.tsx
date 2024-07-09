@@ -38,9 +38,9 @@ export default function Home(){
     return (
         <div className={ 'container-home' }>
 
-            { loading ?
+        { loading ?
              ( <PreLoader/> ) 
-             : 
+             :
              <div className={ 'container-Englobador' }>
                 <Hero/>
 
