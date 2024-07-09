@@ -6,6 +6,8 @@ import Objectpage from "../../components/objectpage/objectpage"
 import Slider from "../../components/slider/slider"
 import { SliderData } from "../../utils/data"
 import Faaq from "../../components/faq/faq"
+import Footer from "../../components/footer/footer"
+
 
 
 
@@ -51,6 +53,9 @@ export default function Home(){
             </div>
         }
             
+        {loading ? ""
+            :
+            <Footer/>}
 
             
             
