@@ -7,6 +7,7 @@ import Slider from "../../components/slider/slider"
 import { SliderData } from "../../utils/data"
 import Faaq from "../../components/faq/faq"
 import Footer from "../../components/footer/footer"
+import Form from "../../components/form/form"
 
 
 
@@ -46,6 +47,8 @@ export default function Home(){
                 <Objectpage />
 
                 <Slider slides={ SliderData }/>
+
+                <Form/>
 
                 <Faaq/>
 
