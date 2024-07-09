@@ -1,4 +1,7 @@
 import "./footer.scss"
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import XIcon from '@mui/icons-material/X';
 
 
 export default function Footer(){
@@ -6,9 +9,9 @@ export default function Footer(){
         <footer className={ 'footer' }>
             <div className="socialLinks">
                 <ul>
-                    <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a></li>
-                    <li><a href="https://www.twitter.com/" target="_blank" rel="noreferrer">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FacebookIcon/></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><InstagramIcon/></a></li>
+                    <li><a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><XIcon/></a></li>
                 </ul>
             </div>
             <div className="line-down">
