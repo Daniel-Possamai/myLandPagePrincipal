@@ -38,6 +38,7 @@ const styles = {
     rowTitleColor: "#fff",
     rowContentColor: '#e7e7e7',
     arrowColor: "red",
+    // titleTextSize: '26px',
 };
 
 
@@ -52,7 +53,7 @@ export default function Faaq(){
     
     
     return (
-        <div className="container-G-Faq">
+        <div className="container-g-faq">
             <div className="custom-faq-container">
                 <Faq
                     data={data}
