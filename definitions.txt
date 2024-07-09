@@ -1,2 +1,8 @@
 Nome: WebSwift 
 Dominio: webswift.com.br
+
+
+Cor primaria: Verde puxado pro azul #07a06f
+Secundaria: Vermelho vinho bem escuro #650b0b
+Texto: Branco #fff
+
