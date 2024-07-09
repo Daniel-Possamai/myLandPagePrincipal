@@ -51,8 +51,7 @@ export default function Home(){
                 <Form/>
 
                 <Faaq/>
-
-                
+            
             </div>
         }
             
