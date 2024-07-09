@@ -54,3 +54,16 @@
         }
     }
 }
+
+
+//Responsivo Mov 1024px
+
+@media (max-width: 1024px) {
+    .footer{
+        .line-down{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+}
