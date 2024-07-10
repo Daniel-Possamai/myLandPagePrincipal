@@ -98,6 +98,7 @@
     margin-top: 8px;
     cursor: pointer;
     border-radius: 6px;
+    transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
   }
   
   .form-container .form-submit-btn:hover {
