@@ -7,7 +7,8 @@ import Slider from "../../components/slider/slider"
 import { SliderData } from "../../utils/data"
 import Faaq from "../../components/faq/faq"
 import Footer from "../../components/footer/footer"
-import Form from "../../components/form/form"
+import Forms from "../../components/formulario/formulario"
+
 
 
 
@@ -48,7 +49,7 @@ export default function Home(){
 
                 <Slider slides={ SliderData }/>
 
-                <Form/>
+                <Forms/>
 
                 <Faaq/>
             
