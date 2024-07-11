@@ -25,6 +25,11 @@ O SEO é um conjunto de técnicas que visa melhorar o posicionamento de um site 
 Como utilizamos o SEO na construção dos sites:
 Estratégia de Palavras-Chave: Realizamos pesquisas detalhadas para identificar as palavras-chave relevantes para o seu nicho de mercado. Essas palavras-chave são incorporadas ao conteúdo do seu site de forma estratégica.
 Produção de Conteúdo Relevante: Criamos conteúdo de alta qualidade, focado nas necessidades do seu público-alvo. Isso não apenas atrai visitantes, mas também melhora o ranqueamento do site.
+
 Otimização On-Page: Utilizamos técnicas como a inclusão da palavra-chave no título da página, na URL e ao longo do texto. Também otimizamos as imagens com textos alternativos (alt tags).
+
 Links Internos e Externos: Incluímos links relevantes dentro do seu conteúdo para melhorar a experiência do usuário e fortalecer a autoridade do seu site.
+
+
+
 Evitamos Conteúdo Copiado: Nunca copiamos conteúdo de outros sites, pois isso prejudica o ranqueamento e a credibilidade.
