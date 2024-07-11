@@ -1,0 +1,29 @@
+
+
+.container-g-seo{
+    width: 100%;
+
+    hr{
+        margin: 30px 0;
+    }
+}
+
+.container-m-seo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .infos-seo{
+        width: 50%;
+        
+    }
+
+    .img-seo{
+        width: 50%;
+
+        img{
+            width: 100%;
+        }
+    }
+}
