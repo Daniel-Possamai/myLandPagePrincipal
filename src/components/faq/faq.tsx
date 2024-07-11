@@ -1,5 +1,5 @@
 import './faq.scss'
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component"
 
 

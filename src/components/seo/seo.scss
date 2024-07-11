@@ -5,6 +5,9 @@
 
     hr{
         margin: 30px 0;
+        border-color: #c10528;
+        border-width: 3px;
+        border-style: solid;
     }
 }
 
@@ -16,7 +19,12 @@
 
     .infos-seo{
         width: 50%;
-        
+        h1{
+            font-size: 48px;
+        }
+        p{
+            font-size: 18px;
+        }
     }
 
     .img-seo{
