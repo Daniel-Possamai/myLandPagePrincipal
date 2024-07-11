@@ -8,6 +8,7 @@ import { SliderData } from "../../utils/data"
 import Faaq from "../../components/faq/faq"
 import Footer from "../../components/footer/footer"
 import Forms from "../../components/formulario/formulario"
+import Seo from "../../components/seo/seo"
 
 
 
@@ -39,13 +40,15 @@ export default function Home(){
     return (
         <div className={ 'container-home' }>
 
-        { loading ?
+        {/* { loading ?
              ( <PreLoader/> ) 
-             :
+             : */}
              <div className={ 'container-Englobador' }>
                 <Hero/>
 
                 <Objectpage />
+
+                <Seo/>
 
                 <Slider slides={ SliderData }/>
 
@@ -54,7 +57,7 @@ export default function Home(){
                 <Faaq/>
             
             </div>
-        }
+        {/* } */}
             
         {loading ? ""
             :
