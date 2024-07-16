@@ -20,8 +20,8 @@ const data = {
             content: `Um site responsivo se adapta automaticamente ao tamanho da tela do dispositivo que você está usando, seja um computador, tablet ou smartphone. Isso garante que a experiência de navegação seja sempre confortável e legível, independentemente do dispositivo.`,
         },
         {
-            title: "Entenda o que é SEO e sua importância para o site",
-            content: `SEO (Search Engine Optimization) é o conjunto de estratégias e técnicas utilizadas para melhorar a visibilidade e o posicionamento de um site nos resultados orgânicos dos mecanismos de busca, como o Google, Bing e Yahoo. O objetivo do SEO é aumentar o tráfego de visitantes qualificados ao site, proporcionando maior exposição e, consequentemente, potencializando as oportunidades de conversão e vendas. Basicamente, o SEO busca otimizar o design e o conteúdo do site para que ele apareça nos primeiros resultados dos motores de busca, tornando-o mais visível e atraindo visitantes de forma orgânica`,
+            title: "Por que contratar a WebSwift?",
+            content: `A WebSwift transforma seu negócio digitalmente, fornecendo soluções modernas e eficientes para suas necessidades de desenvolvimento web.`,
         },
     ],
 };
