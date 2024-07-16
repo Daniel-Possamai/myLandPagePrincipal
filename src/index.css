@@ -32,9 +32,12 @@ html::before {
   right: 0;
   bottom: 0;
   background: 
-    radial-gradient(circle at 50% 20%, #ff313050 0%, transparent 50%), 
+    radial-gradient(circle at 50% 20%, #07a06f81 0%, transparent 50%), 
+    radial-gradient(circle at 50% 80%, #07a06f81 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, #07a06f81 0%, transparent 50%),
+    /* radial-gradient(circle at 50% 20%, #ff313050 0%, transparent 50%), 
     radial-gradient(circle at 50% 80%, #ff313050 0%, transparent 50%),
-    radial-gradient(circle at 50% 50%, #FF310050 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, #FF310050 0%, transparent 50%), */
     linear-gradient(to right, #0A0A0A, #000);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);

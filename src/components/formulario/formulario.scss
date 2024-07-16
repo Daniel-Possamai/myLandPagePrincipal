@@ -8,7 +8,7 @@
 .form-container {
     width: 400px;
     background: linear-gradient(#212121, #212121) padding-box,
-                linear-gradient(145deg, transparent 35%,#ff0000, #f82626) border-box;
+                linear-gradient(145deg, transparent 35%,#07a06f, #22dba1) border-box;
     border: 2px solid transparent;
     padding: 32px 24px;
     font-size: 14px;
@@ -73,12 +73,12 @@
   
   .form-container .form-group input:focus {
     outline: none;
-    border-color: #ff0000;
+    border-color: #07a06f;
   }
   
   .form-container .form-group textarea:focus {
     outline: none;
-    border-color: #ff0000;
+    border-color: #07a06f;
   }
   
   .form-container .form-submit-btn {

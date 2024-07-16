@@ -31,7 +31,7 @@ const styles = {
     titleTextColor: "#fff",
     rowTitleColor: "#fff",
     rowContentColor: '#e7e7e7',
-    arrowColor: "red",
+    arrowColor: "#07a06f",
     // titleTextSize: '26px',
 };
 

@@ -55,7 +55,7 @@
     }
     a{
       background-color: #ffffff2c;
-      border: 2px solid red;
+      border: 2px solid #07a06f;
       font-weight: bold;
       text-decoration: none;
       color: white;
@@ -66,9 +66,9 @@
     }
     //aplicar um efeito de glow ao passar o mouse em cima do a
     a:hover{
-      background-color: red;
+      background-color: #07a06f;
       color: white;
-      box-shadow: 0 0 10px 0 red;
+      box-shadow: 0 0 10px 0 #07a06f;
     }
 
     img{
@@ -79,7 +79,7 @@
     }
     img:hover{
       cursor: pointer;
-      box-shadow: 0 0 10px 0 red;
+      box-shadow: 0 0 10px 0 #07a06f;
     }
   }
 }
@@ -105,7 +105,7 @@
 
     // Estilizando o ponto ativo
     &.react-multi-carousel-dot--active {
-      background-color: #ff0000; // Cor de fundo do ponto ativo
+      background-color: #06c286; // Cor de fundo do ponto ativo
     }
 
     button {
