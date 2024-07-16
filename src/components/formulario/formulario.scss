@@ -25,7 +25,7 @@
   --border-right: 6px;
   --text-stroke-color: rgba(255,255,255,0.6);
   --animation-color: #22dba1;
-  --fs-size: 3em;
+  --fs-size: 4em;
   letter-spacing: 3px;
   text-decoration: none;
   font-size: var(--fs-size);
@@ -56,7 +56,7 @@
 }
 
 .container-m-form{
-  margin-top: 20px;
+  margin-top: 40px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -181,5 +181,15 @@
     color: #717171;
     font-weight: 600;
     font-size: 18px;
+  }
+}
+
+//Responsividade mob 1024px
+
+@media (max-width: 1024px){
+  .container-g-form{
+    .button {
+      --fs-size: 3.5em;
+    }
   }
 }

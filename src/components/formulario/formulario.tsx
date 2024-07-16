@@ -4,8 +4,8 @@ function Forms() {
     return (
         <div className="container-g-form">
             <button className="button" data-text="Awesome">
-                <span className="actual-text">&nbsp;Contate-nos&nbsp;</span>
-                <span aria-hidden="true" className="hover-text">&nbsp;Contate-nos&nbsp;</span>
+                <span className="actual-text">&nbsp;Contato&nbsp;</span>
+                <span aria-hidden="true" className="hover-text">&nbsp;Contato&nbsp;</span>
             </button>
             <div className="container-m-form">
                 <div className="form-container">
