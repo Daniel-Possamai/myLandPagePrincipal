@@ -306,7 +306,7 @@
   }
   
   .bottom .social-buttons-container .social-button:active {
-    background: rgb(255, 234, 0);
+    background: #00c37b;
   }
   
   .bottom .social-buttons-container .social-button:active .svg {
@@ -435,5 +435,41 @@
     .button {
       --fs-size: 3.5em;
     }
+  }
+  .container-m-form{
+    flex-direction: column;
+  }
+
+  .form-container {
+    width: 300px;
+  }
+  
+
+  .parent {
+    width: 300px;
+    height: 300px;
+  }
+
+  .content .title {
+    // display: block;
+    color: #00894d;
+    font-weight: 900;
+    font-size: 18px;
+  }
+  
+  .content .text {
+    // display: block;
+    width: 100%;
+    color: #018d50;
+    font-size: 15px;
+    margin-top: 25px;
+  }
+  .content {
+    padding: 53px 10px 0px 20px;
+    transform: translate3d(0, 0, 26px);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
   }
 }
