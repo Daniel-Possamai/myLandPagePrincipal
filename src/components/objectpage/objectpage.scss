@@ -44,7 +44,7 @@
     border-bottom: 1px solid #07a06f; /* Transição para azul no ativo */
 }
 
-.content {
+.content-p {
     font-family: "Playwrite NG Modern";
     font-style: italic;
     font-size: 34px;
@@ -61,7 +61,7 @@
 }
 
   
-  .content.hidden {
+  .content-p.hidden {
     opacity: 0;
   }
 
@@ -101,7 +101,7 @@
     .navMenu button {
         font-size: 30px;
     }
-    .content {
+    .content-p {
         font-size: 36px;
     }
     .image-container{
@@ -141,7 +141,7 @@
             padding: 3px 3px;
         }
 
-        .content {
+        .content-p {
             font-size: 16px;
             text-align: center;
             display: flex;

@@ -70,7 +70,7 @@ function ObjectPage() {
                     <button className={activeOption === 'opcao2' ? 'active' : ''} onClick={() => handleSetActiveOption('opcao2')}>Conquiste Mais Clientes</button>
                     <button className={activeOption === 'opcao3' ? 'active' : ''} onClick={() => handleSetActiveOption('opcao3')}>Responsividade</button>
                 </nav>
-                <div className={`content ${contentVisible ? 'visible' : 'hidden'}`}>
+                <div className={`content-p ${contentVisible ? 'visible' : 'hidden'}`}>
                     {renderContent()}
                 </div>
             </div>
