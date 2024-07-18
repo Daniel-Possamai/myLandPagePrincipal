@@ -99,7 +99,7 @@
   .form-container .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #00cf75;
+    color: #00a35c;
     font-weight: 600;
     font-size: 12px;
   }
@@ -169,8 +169,8 @@
   // Card contato
 
   .parent {
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     perspective: 1000px;
   }
   
@@ -414,10 +414,10 @@
 
 @media (min-width: 1440px){
   //falta configurar para tela grande
-  .form-container {
-    width: 600px;
+  // .form-container {
+  //   width: 600px;
     
-  }
+  // }
 
   .form-container .form-group label {
     display: block;
