@@ -6,7 +6,7 @@ export default function Seo() {
             <div className="container-m-seo">
                 <div className="infos-seo">
                     <h1>SEO (Search Engine Optimization)</h1>
-                    <p>Na WebSwift, estamos comprometidos em oferecer soluções digitais de alta qualidade para nossos clientes. Uma das maneiras mais eficazes de alcançar visibilidade online e superar a concorrência é através da otimização de mecanismos de busca (SEO).</p>
+                    <p>Na <span>WebSwift</span>, estamos comprometidos em oferecer soluções digitais de alta qualidade para nossos clientes. Uma das maneiras mais eficazes de alcançar visibilidade online e superar a concorrência é através da otimização de mecanismos de busca (SEO).</p>
                 </div>
                 <div className="img-seo">
                     <img src="./images/seoanalytics.png" alt="imagem do ilustrativa do SEO" />
