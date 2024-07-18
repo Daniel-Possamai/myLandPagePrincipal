@@ -57,8 +57,8 @@ export default function Home(){
                 <Faaq/>
             
             </div>
-        {/* } */}
-            
+        {/* } 
+             */}
         {loading ? ""
             :
             <Footer/>}
