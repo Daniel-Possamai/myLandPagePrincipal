@@ -75,7 +75,7 @@ export default function Slider(props: PropsSlider) {
         autoPlay={true}
         autoPlaySpeed={2500}
         keyBoardControl={false}
-        transitionDuration={500}
+        transitionDuration={750}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
         dotListClass="custom-dot-list-style"
