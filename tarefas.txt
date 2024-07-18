@@ -40,32 +40,3 @@ Links Internos e Externos: Incluímos links relevantes dentro do seu conteúdo p
 
 Evitamos Conteúdo Copiado: Nunca copiamos conteúdo de outros sites, pois isso prejudica o ranqueamento e a credibilidade.
 
-
-https://uiverse.io/Smit-Prajapati/smart-liger-5
-
-https://uiverse.io/satyamchaudharydev/quick-chicken-50
-
-
-function Forms() {
-    // Função para abrir um link em uma nova aba
-    const openInNewTab = (url: string) => {
-        window.open(url, '_blank');
-    };
-
-    return (
-        <div className="container-g-form">
-            {/* Outros componentes */}
-            <div className="social-buttons-container">
-                <button className="social-button .social-button1" onClick={() => openInNewTab('https://www.facebook.com')}>
-                    {/* SVG ou ícone do Facebook */}
-                </button>
-                <button className="social-button .social-button2" onClick={() => openInNewTab('https://www.twitter.com')}>
-                    {/* SVG ou ícone do Twitter */}
-                </button>
-                <button className="social-button .social-button3" onClick={() => openInNewTab('https://www.instagram.com')}>
-                    {/* SVG ou ícone do Instagram */}
-                </button>
-            </div>
-        </div>
-    );
-}
