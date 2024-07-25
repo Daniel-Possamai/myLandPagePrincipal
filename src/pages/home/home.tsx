@@ -2,6 +2,7 @@ import Hero from "../../components/hero/hero"
 import PreLoader from "../../components/preloader/preloader"
 import "./home.scss"
 import { useEffect, useState } from "react"
+import { useInView } from "react-intersection-observer"
 import Objectpage from "../../components/objectpage/objectpage"
 import Slider from "../../components/slider/slider"
 import { SliderData } from "../../utils/data"
@@ -36,35 +37,40 @@ export default function Home(){
         }, 5000)
     }, [])
 
+    const { ref: heroRef, inView: heroInView } = useInView({ triggerOnce: true });
+    const { ref: objectpageRef, inView: objectpageInView } = useInView({ triggerOnce: true });
+    const { ref: sliderRef, inView: sliderInView } = useInView({ triggerOnce: true });
+    const { ref: formsRef, inView: formsInView } = useInView({ triggerOnce: true });
+    const { ref: faaqRef, inView: faaqInView } = useInView({ triggerOnce: true });
+
+
 
     return (
-        <div className={ 'container-home' }>
-
-        {/* { loading ?
-             ( <PreLoader/> ) 
-             : */}
-             <div className={ 'container-Englobador' }>
-                <Hero/>
-
-                <Objectpage />
-
-                <Seo/>
-
-                <Slider slides={ SliderData }/>
-
-                <Forms/>
-
-                <Faaq/>
-            
+        <div className="container-home">
+        {loading ? (
+            <PreLoader />
+        ) : (
+            <div className="container-Englobador">
+                <div ref={heroRef} className={`hero ${heroInView ? 'animate' : ''}`}>
+                    <Hero />
+                </div>
+                <div ref={objectpageRef} className={`objectpage ${objectpageInView ? 'animate' : ''}`}>
+                    <Objectpage />
+                </div>
+                <div ref={sliderRef} className={`slider ${sliderInView ? 'animate' : ''}`}>
+                    <Slider slides={SliderData} />
+                </div>
+                <div ref={formsRef} className={`forms ${formsInView ? 'animate' : ''}`}>
+                    <Forms />
+                </div>
+                <div ref={faaqRef} className={`faaq ${faaqInView ? 'animate' : ''}`}>
+                    <Faaq />
+                </div>
             </div>
-        {/* } 
-             */}
-        {loading ? ""
-            :
-            <Footer/>}
+        )}
 
-            
-            
-        </div>
+        <Footer />
+        
+    </div>
     )
 }
