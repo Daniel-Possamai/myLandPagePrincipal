@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { SliderProps } from '../../pages/home/home';
 import './slider.scss'
 import Carousel from "react-multi-carousel";
@@ -56,6 +56,16 @@ export default function Slider(props: PropsSlider) {
   const closeModal = () => {
     setIsModalOpen(false);
   };
+
+
+// Não terminado!
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = 'hidden';
+    }else{
+      document.body.style.overflow = 'unset';
+    };
+  })
   
  
 
