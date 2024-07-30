@@ -58,15 +58,7 @@ export default function Slider(props: PropsSlider) {
   };
 
 
-// Não terminado!
-  useEffect(() => {
-    if (isModalOpen) {
-      document.body.style.overflow = 'hidden';
-    }else{
-      document.body.style.overflow = 'unset';
-    };
-  })
-  
+
  
 
 

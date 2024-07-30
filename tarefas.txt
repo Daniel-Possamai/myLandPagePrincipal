@@ -1,6 +1,8 @@
 
 usar cores do card de contato no formulario verde escuro por fora e nos input text verde claro, titulos dos inputs em verde escuro 
 
+mudar o tamanho dos circulos do card de contato no mobile para menor
+
 
 - Lembrar de fazer a logica para travar o scroll ate que a animação do hero não termine, após terminar a animação liberar o scroll para o usuario
 
