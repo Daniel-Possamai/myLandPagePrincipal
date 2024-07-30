@@ -151,7 +151,6 @@
   
 
   //Fim do loader do formulario
-
   
   .form-container button:active {
     scale: 0.95;
@@ -172,7 +171,7 @@
   .form-container .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #00a35c;
+    color: #00cf75;
     font-weight: 600;
     font-size: 12px;
   }
@@ -181,10 +180,10 @@
     width: 100%;
     padding: 12px 16px;
     border-radius: 8px;
-    color: #000;
+    color: #ffffff;
     font-family: inherit;
-    background-color: #fff;
-    border: 1px solid #414141;
+    background-color: transparent;
+    border: 1px solid #ffffff;
   }
   
   .form-container .form-group textarea {
@@ -192,10 +191,10 @@
     padding: 12px 16px;
     border-radius: 8px;
     resize: none;
-    color: #000;
+    color: #ffffff;
     height: 96px;
-    border: 1px solid #414141;
-    background-color: #fff;
+    border: 1px solid #ffffff;
+    background: transparent;
     font-family: inherit;
   }
   
@@ -205,12 +204,12 @@
   
   .form-container .form-group input:focus {
     outline: none;
-    border-color: #002515;
+    border-color: #00b868;
   }
   
   .form-container .form-group textarea:focus {
     outline: none;
-    border-color: #002515;
+    border-color: #00b868;
   }
   
   .form-container .form-submit-btn {
@@ -219,23 +218,24 @@
     justify-content: center;
     align-self: flex-start;
     font-family: inherit;
-    color: #717171;
+    color: white;
     font-weight: 600;
     width: 40%;
-    background: #313131;
-    border: 1px solid #414141;
+    background: #008f51;
+    border: 1px solid #005a33;
     padding: 12px 16px;
     font-size: inherit;
     gap: 8px;
     margin-top: 8px;
     cursor: pointer;
     border-radius: 6px;
-    transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
   }
   
   .form-container .form-submit-btn:hover {
-    background-color: #fff;
-    border-color: #fff;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    color: #008f51;
   }
 
 

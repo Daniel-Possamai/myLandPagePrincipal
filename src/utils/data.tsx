@@ -24,5 +24,11 @@ export const SliderData: SliderProps[] = [
         description: "Site para salvar e categorizar links importantes.",
         url: "https://daniel-possamai.github.io/projetoDiscover/",
         img: "./images/linkspreview.png"
+    },
+    {
+        title: "Empresa de automação",
+        description: "Site para divulgar os serviços da empresa e marcas com a qual trabalha.",
+        url: "https://willian-herbert.github.io/Site-Somaq/",
+        img: "./images/somaqpreview.png"
     }
 ]
