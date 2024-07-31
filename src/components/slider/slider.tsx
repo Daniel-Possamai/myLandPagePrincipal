@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { SliderProps } from '../../pages/home/home';
 import './slider.scss'
 import Carousel from "react-multi-carousel";
