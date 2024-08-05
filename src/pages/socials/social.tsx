@@ -12,11 +12,11 @@ export default function Socials(){
             <p>@webswift</p>
         </div>
 
-        <div id="switch">
+        {/* <div id="switch">
             <button>
             </button>
             <span></span>
-        </div>
+        </div> */}
 
         <ul>
             <li>
