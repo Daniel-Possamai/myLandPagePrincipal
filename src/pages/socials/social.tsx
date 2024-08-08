@@ -18,20 +18,20 @@ export default function Socials(){
             <span></span>
         </div> */}
 
-        <ul>
+        <ul className='lista-links'>
             <li>
-                <a href="https://wa.me/5549920029" target="_blank">Entre em contato</a>
+                <a href="https://wa.me/5549920029" target="_blank" rel="noreferrer">Entre em contato</a>
             </li>
             <li>
-                <a href="https://spotify.link/GKor3U167Jb" target="_blank">Playlist para treinar </a>
+                <a href="https://spotify.link/GKor3U167Jb" target="_blank" rel="noreferrer">Playlist para treinar </a>
             </li>
         </ul>
         <div id="socialLinks-socials">
-            <a href="https://www.instagram.com/webswift/" target="_blank">
+            <a href="https://www.instagram.com/webswift/" target="_blank" rel="noreferrer">
             </a>
         </div>
         <footer className='footer-socials'>
-            <a href="https://wa.me/49998241133" target="_blank">Desenvolvido por <span>WebSwift</span></a>
+            <a href="https://wa.me/49998241133" target="_blank" rel="noreferrer">Desenvolvido por <span>WebSwift</span></a>
         </footer>
     </div>
         </div>

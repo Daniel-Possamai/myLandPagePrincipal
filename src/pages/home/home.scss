@@ -1,11 +1,11 @@
 //Animação de entrada FadeIn
-.hero, .objectpage, .slider, .forms, .faaq {
+.hero, .objectpage, .slider, .forms, .faaq, .seo {
     opacity: 0;
     // transform: translateY(20px);
     transition: opacity 3s ease-out, transform 3s ease-out;
 }
 
-.hero.animate, .objectpage.animate, .slider.animate, .forms.animate, .faaq.animate {
+.hero.animate, .objectpage.animate, .slider.animate, .forms.animate, .faaq.animate, .seo.animate {
     opacity: 1;
     // transform: translateY(0);
 }

@@ -42,6 +42,7 @@ export default function Home(){
     const { ref: sliderRef, inView: sliderInView } = useInView({ triggerOnce: true });
     const { ref: formsRef, inView: formsInView } = useInView({ triggerOnce: true });
     const { ref: faaqRef, inView: faaqInView } = useInView({ triggerOnce: true });
+    const { ref: seoRef, inView: seoInView } = useInView({ triggerOnce: true });
 
 
 
@@ -56,6 +57,9 @@ export default function Home(){
                 </div>
                 <div ref={objectpageRef} className={`objectpage ${objectpageInView ? 'animate' : ''}`}>
                     <Objectpage />
+                </div>
+                <div ref={seoRef} className={`seo ${seoInView ? 'animate' : ''}`}>
+                    <Seo />
                 </div>
                 <div ref={sliderRef} className={`slider ${sliderInView ? 'animate' : ''}`}>
                     <Slider slides={SliderData} />
