@@ -1,4 +1,5 @@
 import './socials.scss'
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 
@@ -23,11 +24,12 @@ export default function Socials(){
                 <a href="https://wa.me/5549920029" target="_blank" rel="noreferrer">Entre em contato</a>
             </li>
             <li>
-                <a href="https://spotify.link/GKor3U167Jb" target="_blank" rel="noreferrer">Playlist para treinar </a>
+                <a href="https://spotify.link/GKor3U167Jb" target="_blank" rel="noreferrer">Veja nosso site oficial</a>
             </li>
         </ul>
         <div id="socialLinks-socials">
             <a href="https://www.instagram.com/webswift/" target="_blank" rel="noreferrer">
+                <InstagramIcon />
             </a>
         </div>
         <footer className='footer-socials'>

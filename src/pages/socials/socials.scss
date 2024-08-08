@@ -1,11 +1,10 @@
 
+ 
+$textColor: #ffffff;
+$strokeColor: rgba(255, 255, 255, 0.5);
+$surfaceColor: rgba(255, 255, 255, 0.1);
+$highLightColor: rgba(255, 255, 255, 0.2);
 
-:root {
-    --textColor: #ffffff;
-    --strokeColor: rgba(255, 255, 255, 0.5);
-    --surfaceColor: rgba(255, 255, 255, 0.1);
-    --highLightColor: rgba(255, 255, 255, 0.2);
-}
 
 
 
@@ -33,44 +32,46 @@
     width: 112px;
 }
 
+//O que está comentado não está sendo usado no momento
+
 /* switch */
 
-#switch{
-    display: none;
-    width: 64px;
-    position: relative;
-    margin: 4px auto;
-}
+// #switch{
+//     display: none;
+//     width: 64px;
+//     position: relative;
+//     margin: 4px auto;
+// }
 
-#switch button{
-    width: 32px;
-    height: 32px;
-    background: #fff var(--switchBgUrl) no-repeat center;
-    border: 0;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    animation: slideOut .4s;
-    top: 50%;
-    transform:  translateY(-50%);
-    transition: .3s;
-}
+// #switch button{
+//     width: 32px;
+//     height: 32px;
+//     background: #fff var(--switchBgUrl) no-repeat center;
+//     border: 0;
+//     border-radius: 50%;
+//     position: absolute;
+//     z-index: 1;
+//     right: 0;
+//     animation: slideOut .4s;
+//     top: 50%;
+//     transform:  translateY(-50%);
+//     transition: .3s;
+// }
 
-#switch button:hover{
-    cursor: pointer;
-    box-shadow: 0px 0px 5px 3px var(--highLightColor);
-}
+// #switch button:hover{
+//     cursor: pointer;
+//     box-shadow: 0px 0px 5px 3px var(--highLightColor);
+// }
 
-#switch span{
-    display: block;
-    width: 64px;
-    height: 24px;
-    background: var(--surfaceColor);
-    border: 1px solid var(--strokeColor);
-    border-radius: 9999px;
-    backdrop-filter: blur(4px);
-}
+// #switch span{
+//     display: block;
+//     width: 64px;
+//     height: 24px;
+//     background: var(--surfaceColor);
+//     border: 1px solid var(--strokeColor);
+//     border-radius: 9999px;
+//     backdrop-filter: blur(4px);
+// }
 
 /* .light #switch button{
     animation: slideIn .4s forwards;
@@ -78,23 +79,23 @@
 
 /* Animação */
 
-@keyframes slideIn {
-    0%{
-        right: 0;
-    }
-    100%{
-        right: 50%;
-    }
-}
+// @keyframes slideIn {
+//     0%{
+//         right: 0;
+//     }
+//     100%{
+//         right: 50%;
+//     }
+// }
 
-@keyframes slideOut{
-    0%{
-        left: 0;
-    }
-    100%{
-        left: 50%;
-    }
-}
+// @keyframes slideOut{
+//     0%{
+//         left: 0;
+//     }
+//     100%{
+//         left: 50%;
+//     }
+// }
 
 
 
@@ -114,8 +115,8 @@
     gap: 5px;
     align-items: center;
     justify-content: center;
-    background: var(--surfaceColor);
-    border: 1px solid var(--strokeColor);
+    background: $surfaceColor;
+    border: 1px solid $strokeColor;
     border-radius: 8px;
     backdrop-filter: blur(4px);
     text-decoration: none;
@@ -124,8 +125,8 @@
 }
 
 .lista-links li a:hover {
-    background: var(--strokeColor);
-    border: 1.5px solid var(--textColor);
+    background: $strokeColor;
+    border: 1.5px solid $textColor;
 }
 
 #socialLinks-socials{
@@ -146,7 +147,7 @@
 }
 
 #socialLinks-socials a:hover{
-    background: var(--highLightColor);
+    background: $highLightColor;
     padding: 16px;
     
 }
@@ -159,6 +160,7 @@
 
 .footer-socials a{
     text-decoration: none;
+    color: $textColor;
 }
 
 .footer-socials a span{
@@ -170,7 +172,6 @@
 
 /* Reponsivo */
 
-/* Background */
 
 
 
