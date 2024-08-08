@@ -113,6 +113,8 @@
         }
     }
 }
+
+
   
 
 
@@ -162,3 +164,50 @@
             }
         }
     }
+
+
+
+
+//Reponsisvo especial para imagem do objectpage
+
+@media (min-width: 1025px) and (max-width: 1260px){
+    .container-nav-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        gap: 20px;
+    }
+    .navMenu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navMenu button {
+        font-size: 22px;
+        padding: 3px 3px;
+    }
+
+    .content-p {
+        font-size: 24px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+    }
+    .nav-and-content{
+        height: 170px;
+    }
+
+    .image-container{
+        width: 450px;
+        height: 300px;
+    
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
