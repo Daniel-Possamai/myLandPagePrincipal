@@ -14,7 +14,7 @@ export const SliderData: SliderProps[] = [
         img: "./images/imovelpreview.png"
     },
     {
-        title: "Meu Portfólio",
+        title: "Portfólio",
         description: "Destaca habilidades, projetos e informações de contato.",
         url: "https://daniel-possamai.github.io/portfolioDeDanielPossamai/",
         img: "./images/previewportfolio.png"
