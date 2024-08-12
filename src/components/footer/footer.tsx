@@ -15,7 +15,7 @@ export default function Footer(){
                 </ul>
             </div> */}
             <div className="line-down">
-                <p>Copyright © 2024 Bruordi e Legend. Todos os direitos reservados.</p>
+                <p>Copyright © 2024 WebSwift. Todos os direitos reservados.</p>
             </div>
         </footer>
     )
