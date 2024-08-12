@@ -33,6 +33,12 @@
     max-width: 75%;
     height: auto;
     animation: pulse 1.5s infinite;
+     //Não deixar o usuario arrastar a imagem
+     -webkit-user-drag: none;
+     user-select: none;
+     -moz-user-select: none;
+     -webkit-user-select: none;
+     -ms-user-select: none;
 }
 
 .h1-preloader{

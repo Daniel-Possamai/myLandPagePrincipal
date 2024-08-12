@@ -30,6 +30,12 @@ $highLightColor: rgba(255, 255, 255, 0.2);
 #profile img{
     border-radius: 40px;
     width: 112px;
+    //Não deixar o usuario arrastar a imagem
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 //O que está comentado não está sendo usado no momento
@@ -122,6 +128,7 @@ $highLightColor: rgba(255, 255, 255, 0.2);
     text-decoration: none;
     font-weight: 500;
     transition: .3s;
+    color: $textColor;
 }
 
 .lista-links li a:hover {
@@ -144,6 +151,7 @@ $highLightColor: rgba(255, 255, 255, 0.2);
     padding: 16px;
     border-radius: 50%;
     transition: background .3s;
+    color: $textColor;
 }
 
 #socialLinks-socials a:hover{
