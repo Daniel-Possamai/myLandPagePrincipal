@@ -24,7 +24,7 @@ export default function Socials(){
                 <a href="https://wa.me/554998061369" target="_blank" rel="noreferrer">Entre em contato</a>
             </li>
             <li>
-                <a href="www.webswift.com.br" target="_blank" rel="noreferrer">Veja nosso site oficial</a>
+                <a href="https://www.webswift.com.br" target="_blank" rel="noreferrer">Veja nosso site oficial</a>
             </li>
         </ul>
         <div id="socialLinks-socials">
