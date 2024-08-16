@@ -82,7 +82,7 @@ function Forms() {
                                 <span className="circle circle3"></span>
                                 <span className="circle circle4"></span>
                                 <span className="circle circle5">
-                                    <img className={' svg '} src="./images/logowebswift.png" alt="logo da webswift" />
+                                    <img className={' svg '} src="./images/logowebswiftnome.png" alt="logo da webswift" />
                                 </span>
 
                             </div>
