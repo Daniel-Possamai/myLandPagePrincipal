@@ -17,7 +17,7 @@ export default function Seo() {
 
             <div className="container-m-seo">
                 <div className="img-seo">
-                    <img src="./images/seoanalyticstwo_2.png" alt="" />
+                    <img src="./images/seoanalyticstwo.png" alt="" />
                 </div>
                 <div className="infos-seo2">
                     <h1>Como utilizamos o SEO na construção dos sites</h1>
