@@ -371,20 +371,14 @@
   }
   
   .bottom .social-buttons-container .social-button:hover {
-    background: black;
+    background: rgba(0, 0, 0, 0.144);
   }
-  
-  .bottom .social-buttons-container .social-button:hover .svg {
-    fill: white;
-  }
+
   
   .bottom .social-buttons-container .social-button:active {
     background: #00c37b;
   }
   
-  .bottom .social-buttons-container .social-button:active .svg {
-    fill: black;
-  }
   
   .logo {
     position: absolute;
