@@ -9,7 +9,7 @@ export default function Socials(){
         <div className="container-socials">
              <div id="container-social">
         <div id="profile">
-            <img src="./images/logowebswift.png" alt="imagem de perfil da logo da webswift" />
+            <img src="./images/logowebswiftnome.png" alt="imagem de perfil da logo da webswift" />
             <p>@webswift</p>
         </div>
 
