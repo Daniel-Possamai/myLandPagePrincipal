@@ -94,13 +94,13 @@ function Forms() {
                             <div className="bottom">
 
                                 <div className="social-buttons-container">
-                                    <button className="social-button .social-button1" onClick={() => openInNewTab("https://instagram.com")}>
+                                    <button className="social-button .social-button1" onClick={() => openInNewTab("https://www.instagram.com/webswift_br")}>
                                         <InstagramIcon className='svg' />
                                     </button>
-                                    <button className="social-button .social-button2" onClick={() => openInNewTab("https://www.discord.com")}>
+                                    <button className="social-button .social-button2" onClick={() => openInNewTab("mailto:contato@webswift.com.br")}>
                                         <MailOutlineIcon className='svg' />
                                     </button>
-                                    <button className="social-button .social-button3" onClick={() => openInNewTab("https://www.discord.com")}>
+                                    <button className="social-button .social-button3" onClick={() => openInNewTab("https://wa.me/554998061369")}>
                                         <WhatsAppIcon className='svg' />
                                     </button>
                                 </div>

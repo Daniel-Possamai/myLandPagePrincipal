@@ -28,7 +28,7 @@ export default function Socials(){
             </li>
         </ul>
         <div id="socialLinks-socials">
-            <a href="https://www.instagram.com/webswift/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/webswift_br" target="_blank" rel="noreferrer">
                 <InstagramIcon />
             </a>
         </div>
