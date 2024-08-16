@@ -21,7 +21,7 @@ function Forms() {
 
 
         try {
-            const response = await fetch('https://formsubmit.co/sebekaf173@padvn.com', {
+            const response = await fetch('https://formsubmit.co/contato@webswift.com.br', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
