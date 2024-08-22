@@ -1,10 +1,10 @@
-
+import "./barber.scss";
 
 
 
 export default function Barber(){
     return(
-        <div>opa</div>
+        <div>test</div>
 
     )
 }
