@@ -1,0 +1,35 @@
+.container-notfound{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .warning-icon{
+        font-size: 150px;
+    }
+
+    a{  
+        padding: 10px;
+        background-color: #fff;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        transition: color .5s, background .5s, transform .5s;
+    }
+
+    a:hover{
+        background-color: #000;
+        color: #fff;
+        transform: scale(1.05);
+    }
+}
+
+
+
+
