@@ -29,9 +29,9 @@ export default function Barber() {
                     <div className="test"><h1>Barbeiro</h1></div>
                     :
                     <form className={"form-senha"} onSubmit={handleSubmit}>
-                        <label htmlFor="senha">
+                        <label htmlFor="input-senha">
                             Senha:
-                            <input name="senha" type="password" value={senha} onChange={handleChange} />
+                            <input id="input-senha" name="senha" type="password" value={senha} onChange={handleChange} />
                         </label>
                         <button type="submit">Acessar</button>
                     </form>}
