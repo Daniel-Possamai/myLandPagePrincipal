@@ -1,0 +1,367 @@
+[03-Sep-2024 13:39:06 UTC] Array
+(
+    [wp_latepoint_steps] => Created table wp_latepoint_steps
+)
+
+[03-Sep-2024 13:39:06 UTC] Array
+(
+    [wp_latepoint_carts] => Created table wp_latepoint_carts
+)
+
+[03-Sep-2024 13:39:06 UTC] Array
+(
+    [wp_latepoint_cart_items] => Created table wp_latepoint_cart_items
+)
+
+[03-Sep-2024 13:39:07 UTC] Array
+(
+    [wp_latepoint_orders] => Created table wp_latepoint_orders
+)
+
+[03-Sep-2024 13:39:07 UTC] Array
+(
+    [wp_latepoint_order_items] => Created table wp_latepoint_order_items
+)
+
+[03-Sep-2024 13:39:07 UTC] Array
+(
+    [wp_latepoint_order_intents] => Created table wp_latepoint_order_intents
+)
+
+[03-Sep-2024 13:39:07 UTC] Array
+(
+    [wp_latepoint_order_invoices] => Created table wp_latepoint_order_invoices
+)
+
+[03-Sep-2024 13:39:07 UTC] Array
+(
+    [wp_latepoint_process_jobs] => Created table wp_latepoint_process_jobs
+)
+
+[03-Sep-2024 13:39:07 UTC] Array
+(
+    [wp_latepoint_sessions] => Created table wp_latepoint_sessions
+)
+
+[03-Sep-2024 13:39:07 UTC] Array
+(
+    [wp_latepoint_bookings] => Created table wp_latepoint_bookings
+)
+
+[03-Sep-2024 13:39:07 UTC] Array
+(
+    [wp_latepoint_cart_meta] => Created table wp_latepoint_cart_meta
+)
+
+[03-Sep-2024 13:39:08 UTC] Array
+(
+    [wp_latepoint_order_meta] => Created table wp_latepoint_order_meta
+)
+
+[03-Sep-2024 13:39:08 UTC] Array
+(
+    [wp_latepoint_booking_meta] => Created table wp_latepoint_booking_meta
+)
+
+[03-Sep-2024 13:39:08 UTC] Array
+(
+    [wp_latepoint_processes] => Created table wp_latepoint_processes
+)
+
+[03-Sep-2024 13:39:08 UTC] Array
+(
+    [wp_latepoint_service_meta] => Created table wp_latepoint_service_meta
+)
+
+[03-Sep-2024 13:39:08 UTC] Array
+(
+    [wp_latepoint_customer_meta] => Created table wp_latepoint_customer_meta
+)
+
+[03-Sep-2024 13:39:08 UTC] Array
+(
+    [wp_latepoint_agent_meta] => Created table wp_latepoint_agent_meta
+)
+
+[03-Sep-2024 13:39:08 UTC] Array
+(
+    [wp_latepoint_settings] => Created table wp_latepoint_settings
+)
+
+[03-Sep-2024 13:39:08 UTC] Array
+(
+    [wp_latepoint_locations] => Created table wp_latepoint_locations
+)
+
+[03-Sep-2024 13:39:08 UTC] Array
+(
+    [wp_latepoint_location_categories] => Created table wp_latepoint_location_categories
+)
+
+[03-Sep-2024 13:39:09 UTC] Array
+(
+    [wp_latepoint_bundles] => Created table wp_latepoint_bundles
+)
+
+[03-Sep-2024 13:39:09 UTC] Array
+(
+    [wp_latepoint_bundles_services] => Created table wp_latepoint_bundles_services
+)
+
+[03-Sep-2024 13:39:09 UTC] Array
+(
+    [wp_latepoint_services] => Created table wp_latepoint_services
+)
+
+[03-Sep-2024 13:39:09 UTC] Array
+(
+    [wp_latepoint_agents] => Created table wp_latepoint_agents
+)
+
+[03-Sep-2024 13:39:09 UTC] Array
+(
+    [wp_latepoint_step_settings] => Created table wp_latepoint_step_settings
+)
+
+[03-Sep-2024 13:39:09 UTC] Array
+(
+    [wp_latepoint_customers] => Created table wp_latepoint_customers
+)
+
+[03-Sep-2024 13:39:09 UTC] Array
+(
+    [wp_latepoint_service_categories] => Created table wp_latepoint_service_categories
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_custom_prices] => Created table wp_latepoint_custom_prices
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_work_periods] => Created table wp_latepoint_work_periods
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_agents_services] => Created table wp_latepoint_agents_services
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_activities] => Created table wp_latepoint_activities
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_transactions] => Created table wp_latepoint_transactions
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_steps.id] => Changed type of wp_latepoint_steps.id from bigint(20) unsigned to BIGINT UNSIGNED
+    [wp_latepoint_steps.use_custom_image] => Changed type of wp_latepoint_steps.use_custom_image from tinyint(1) to boolean
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_carts.id] => Changed type of wp_latepoint_carts.id from bigint(20) unsigned to BIGINT UNSIGNED
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_cart_items.id] => Changed type of wp_latepoint_cart_items.id from bigint(20) unsigned to BIGINT UNSIGNED
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_orders.id] => Changed type of wp_latepoint_orders.id from bigint(20) unsigned to BIGINT UNSIGNED
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_order_items.id] => Changed type of wp_latepoint_order_items.id from bigint(20) unsigned to BIGINT UNSIGNED
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_order_intents.id] => Changed type of wp_latepoint_order_intents.id from bigint(20) unsigned to BIGINT UNSIGNED
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_order_invoices.id] => Changed type of wp_latepoint_order_invoices.id from bigint(20) unsigned to BIGINT UNSIGNED
+)
+
+[03-Sep-2024 13:39:10 UTC] Array
+(
+    [wp_latepoint_process_jobs.id] => Changed type of wp_latepoint_process_jobs.id from bigint(20) unsigned to BIGINT UNSIGNED
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+    [wp_latepoint_sessions.id] => Changed type of wp_latepoint_sessions.id from bigint(20) unsigned to BIGINT UNSIGNED
+    [wp_latepoint_sessions.expiration] => Changed type of wp_latepoint_sessions.expiration from bigint(20) unsigned to BIGINT UNSIGNED
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+    [wp_latepoint_services.is_price_variable] => Changed type of wp_latepoint_services.is_price_variable from tinyint(1) to boolean
+    [wp_latepoint_services.is_deposit_required] => Changed type of wp_latepoint_services.is_deposit_required from tinyint(1) to boolean
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+    [wp_latepoint_agents.custom_hours] => Changed type of wp_latepoint_agents.custom_hours from tinyint(1) to boolean
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+    [wp_latepoint_customers.is_guest] => Changed type of wp_latepoint_customers.is_guest from tinyint(1) to boolean
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+    [wp_latepoint_custom_prices.is_price_variable] => Changed type of wp_latepoint_custom_prices.is_price_variable from tinyint(1) to boolean
+    [wp_latepoint_custom_prices.is_deposit_required] => Changed type of wp_latepoint_custom_prices.is_deposit_required from tinyint(1) to boolean
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+    [wp_latepoint_agents_services.is_custom_hours] => Changed type of wp_latepoint_agents_services.is_custom_hours from tinyint(1) to BOOLEAN
+    [wp_latepoint_agents_services.is_custom_price] => Changed type of wp_latepoint_agents_services.is_custom_price from tinyint(1) to BOOLEAN
+    [wp_latepoint_agents_services.is_custom_duration] => Changed type of wp_latepoint_agents_services.is_custom_duration from tinyint(1) to BOOLEAN
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:39:11 UTC] Array
+(
+)
+
+[03-Sep-2024 13:40:14 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 13:40:14 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 13:40:59 UTC] Array
+(
+    [wp_latepoint_gcal_events] => Created table wp_latepoint_gcal_events
+)
+
+[03-Sep-2024 13:40:59 UTC] Array
+(
+    [wp_latepoint_gcal_recurrences] => Created table wp_latepoint_gcal_recurrences
+)
+
+[03-Sep-2024 13:45:51 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 13:45:51 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 13:46:27 UTC] Array
+(
+)
+
+[03-Sep-2024 13:46:27 UTC] Array
+(
+)
+
+[03-Sep-2024 13:46:27 UTC] Array
+(
+    [wp_latepoint_messages] => Created table wp_latepoint_messages
+)
+
+[03-Sep-2024 13:46:28 UTC] Array
+(
+    [wp_latepoint_service_extras] => Created table wp_latepoint_service_extras
+)
+
+[03-Sep-2024 13:46:28 UTC] Array
+(
+    [wp_latepoint_services_service_extras] => Created table wp_latepoint_services_service_extras
+)
+
+[03-Sep-2024 13:46:28 UTC] Array
+(
+    [wp_latepoint_bookings_service_extras] => Created table wp_latepoint_bookings_service_extras
+)
+
+[03-Sep-2024 13:46:29 UTC] Array
+(
+    [wp_latepoint_coupons] => Created table wp_latepoint_coupons
+)
+
+[03-Sep-2024 14:26:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:26:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:26:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:26:58 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:27:15 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:27:15 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:27:15 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:27:15 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:27:33 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:27:33 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:27:33 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
+[03-Sep-2024 14:27:33 UTC] PHP Warning:  Undefined property: stdClass::$plugin in C:\Users\brwor\Desktop\aulasDevQuest\projetosPessoais\myLandPage\myLandPagePrincipal\wordpress\app\public\wp-includes\class-wp-list-util.php on line 168
